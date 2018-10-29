@@ -1,4 +1,10 @@
+/**
+ * { item_description }.
+ */
 import java.util.Scanner;
+/**
+ * Interface for graph.
+ */
 interface Graph {
 	public int V();
 	public int E();
@@ -6,6 +12,9 @@ interface Graph {
 	public Iterable<Integer> adj(int v);
 	public boolean hasEdge(int v, int w);
 }
+/**
+ * List of adjacencies.
+ */
 class AdjacencyList implements Graph {
 	Bag<Integer>[] bags;
 	private int vertexval;
