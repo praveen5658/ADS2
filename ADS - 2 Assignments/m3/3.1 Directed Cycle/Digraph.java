@@ -19,6 +19,7 @@ public class Digraph {
      * Constructs the object.
      *
      * @param      v1     { vertex }
+     * Time Complexity : O(N)
      */
     public Digraph(final int v1) {
 
@@ -34,6 +35,7 @@ public class Digraph {
      * returns no. of vertexes.
      *
      * @return     { vertexes }
+     * Time Complexity : O(1)
      */
     public int vertex() {
         return v;
@@ -43,6 +45,7 @@ public class Digraph {
      * no. of edges.
      *
      * @return     { edges }
+     * Time Complexity : O(1)
      */
     public int edges() {
         return e;
@@ -53,6 +56,7 @@ public class Digraph {
      *
      * @param      v1    { vertex1 }
      * @param      w1     { vertex2 }
+     * Time Complexity : O(1)
      */
     public void addEdge(final int v1, final int w1) {
 

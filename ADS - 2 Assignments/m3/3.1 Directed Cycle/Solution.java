@@ -44,6 +44,7 @@ class DirectedCycle {
      *
      * @param      g2     { graph }
      * @param      v     { vertex }
+     * Time Complexity : O(E+V)
      */
     private void dfs(final Digraph g2, final int v) {
         onStack[v] = true;

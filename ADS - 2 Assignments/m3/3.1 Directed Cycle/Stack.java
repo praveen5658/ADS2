@@ -43,6 +43,7 @@ public class Stack<Item> {
      * Is the stack empty?
      *
      * @return     True if empty, False otherwise.
+     * Time Complexity : O(1)
      */
     public boolean isEmpty() {
         return first == null;
@@ -52,6 +53,7 @@ public class Stack<Item> {
      * Return the number of items in the stack.
      *
      * @return     { size }
+     * Time Complexity : O(1)
      */
     public int size() {
         return size;
@@ -61,6 +63,7 @@ public class Stack<Item> {
      * add an item to stack.
      *
      * @param      item  The item.
+     * Time Complexity : O(1)
      */
     public void push(final Item item) {
         Node oldfirst = first;

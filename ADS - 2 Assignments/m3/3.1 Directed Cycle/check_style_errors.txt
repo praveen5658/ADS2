@@ -5,4 +5,6 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.1 Directed Cycle\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
+Checkstyle ends with 1 errors.
