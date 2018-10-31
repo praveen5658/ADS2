@@ -69,11 +69,4 @@ public class Stack<Item> {
         first.next = oldfirst;
         size++;
     }
-
-
-
-
-
 }
-
-
