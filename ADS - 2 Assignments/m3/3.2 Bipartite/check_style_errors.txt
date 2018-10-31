@@ -2,16 +2,13 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:42:16: Name 'Vertex' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:51:16: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:51:20: '{' at column 20 should have line break after. [LeftCurly]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:64: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:87: First sentence should end with a period. [JavadocStyle]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:91: First sentence should end with a period. [JavadocStyle]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:121: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:127: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:55: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:78: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:82: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:112: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:118: First sentence should end with a period. [JavadocStyle]
 Audit done.
-Checkstyle ends with 9 errors.
+Checkstyle ends with 6 errors.
 Starting audit...
 Audit done.
 Starting audit...

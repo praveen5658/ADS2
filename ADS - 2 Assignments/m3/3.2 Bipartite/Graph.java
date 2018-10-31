@@ -39,18 +39,9 @@ public class Graph {
      *
      * @return     { v }
      */
-    public int Vertex() {
+    public int vertex() {
         return v;
     }
-    /**
-     * {  number of edges }.
-     * its complexity is O(1).
-     *
-     * @return     { e }
-     */
-    public int E() { return e; }
-
-
     // add undirected edge v-w
 
     /**
