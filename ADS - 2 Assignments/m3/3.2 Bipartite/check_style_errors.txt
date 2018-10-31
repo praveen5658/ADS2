@@ -1,0 +1,68 @@
+Starting audit...
+Audit done.
+Starting audit...
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:25:8: Unused @param tag for 'v'. [JavadocMethod]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:27:28: Expected @param tag for 'v1'. [JavadocMethod]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:42:16: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:51:16: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:51:20: '{' at column 20 should have line break after. [LeftCurly]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:64: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:87: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:91: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:98:12: Unused @param tag for 'v'. [JavadocMethod]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:100:21: Parameter v2 should be final. [FinalParameters]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:100:25: Expected @param tag for 'v2'. [JavadocMethod]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:121: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:127: First sentence should end with a period. [JavadocStyle]
+Audit done.
+Checkstyle ends with 14 errors.
+Starting audit...
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:4: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:8: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:26: Line is longer than 80 characters (found 105). [LineLength]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:29: Type Javadoc comment is missing @param <Item> tag. [JavadocType]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:30:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:30:17: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:31:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:32:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:35: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:36:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:37:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:51: Expected @return tag. [JavadocMethod]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:58: Expected @return tag. [JavadocMethod]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:59: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:66: Expected @return tag. [JavadocMethod]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:67: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:67: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:75:25: Parameter item should be final. [FinalParameters]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:75:30: Expected @param tag for 'item'. [JavadocMethod]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:78:24: '{' at column 24 should have line break after. [LeftCurly]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:78:51: '}' at column 51 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:79:24: '{' at column 24 should have line break after. [LeftCurly]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:87: Expected @return tag. [JavadocMethod]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:88: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:92: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:99: Expected @return tag. [JavadocMethod]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:101: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:104: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:105: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:108: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:110: Expected @return tag. [JavadocMethod]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:111: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:115: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:116:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:118: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:118:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:119: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:119:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:121:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:122: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Queue.java:124: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 42 errors.
+Starting audit...
+Audit done.
+Starting audit...
+Audit done.
