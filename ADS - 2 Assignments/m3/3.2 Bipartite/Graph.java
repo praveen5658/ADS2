@@ -52,7 +52,7 @@ public class Graph {
      * @param      w1     { vertex2 }
      */
     public void addEdge(final int v1, final int w1) {
-        if (!adj[v1][w1]) e++;
+        if (!adj[v1][w1]) {e++;}
         adj[v1][w1] = true;
         adj[w1][v1] = true;
     }
@@ -76,11 +76,11 @@ public class Graph {
      */
     private class AdjIterator implements Iterator<Integer>, Iterable<Integer> {
         /**
-         * { vertex }
+         * { vertex }.
          */
         private int v1;
         /**
-         * { edge }
+         * { edge }.
          */
         private int w = 0;
         /**
@@ -109,14 +109,14 @@ public class Graph {
          */
         public boolean hasNext() {
             while (w < v) {
-                if (adj[v1][w]) return true;
+                if (adj[v1][w]) {return true;}
                 w++;
             }
             return false;
         }
 
         /**
-         * { returns next value }
+         * { returns next value }.
          *
          * @return     { integer }
          */
@@ -128,7 +128,4 @@ public class Graph {
         }
 
     }
-
-
-
 }

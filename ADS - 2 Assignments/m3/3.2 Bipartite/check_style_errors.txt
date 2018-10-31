@@ -2,13 +2,17 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:55: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:78: First sentence should end with a period. [JavadocStyle]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:82: First sentence should end with a period. [JavadocStyle]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:112: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:118: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:55:27: '{' at column 27 should have line break after. [LeftCurly]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:55:28: '{' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:55:32: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:55:32: '}' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:112:33: '{' at column 33 should have line break after. [LeftCurly]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:112:34: 'return' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:112:34: '{' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:112:46: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m3\3.2 Bipartite\Graph.java:112:46: '}' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 10 errors.
 Starting audit...
 Audit done.
 Starting audit...
