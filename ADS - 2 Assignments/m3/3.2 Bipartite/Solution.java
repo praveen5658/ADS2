@@ -47,6 +47,7 @@ class Bipartite {
      *
      * @param      g1    The g1
      * @param      v     { vertex1 }
+     * Time Complexity : O(E+V)
      */
     private void dfs(final Graph g1, final int v) {
         marked[v] = true;
