@@ -22,7 +22,7 @@ public class Graph {
     /**
      * Constructs the object.
      *
-     * @param      v     { parameter_description }
+     * @param      v1     { parameter_description }
      */
     public Graph(final int v1) {
 // if (V < 0) throw new IllegalArgumentException("Too few vertices");
@@ -39,7 +39,7 @@ public class Graph {
      *
      * @return     { v }
      */
-    public int V() {
+    public int Vertex() {
         return v;
     }
     /**
@@ -95,9 +95,9 @@ public class Graph {
         /**
          * Constructs the object.
          *
-         * @param      v     { vertex }
+         * @param      v2    { vertex }
          */
-        AdjIterator(int v2) {
+        AdjIterator(final int v2) {
             this.v1 = v2;
         }
 

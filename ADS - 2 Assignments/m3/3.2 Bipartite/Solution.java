@@ -30,11 +30,11 @@ class Bipartite {
      */
     Bipartite(final Graph g1) {
         isBipartite = true;
-        color  = new boolean[g1.V()];
-        marked = new boolean[g1.V()];
-        edgeTo = new int[g1.V()];
+        color  = new boolean[g1.Vertex()];
+        marked = new boolean[g1.Vertex()];
+        edgeTo = new int[g1.Vertex()];
 
-        for (int v = 0; v < g1.V(); v++) {
+        for (int v = 0; v < g1.Vertex(); v++) {
             if (!marked[v]) {
                 dfs(g1, v);
             }
