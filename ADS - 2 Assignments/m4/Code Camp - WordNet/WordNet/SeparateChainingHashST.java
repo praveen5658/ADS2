@@ -146,7 +146,7 @@ class SeparateChainingHashST {
      *
      * @return     { the value associated with in the symbol table }
      */
-    public get(final Key key) {
+    public Value get(final Key key) {
         if (key == null) {
             throw new IllegalArgumentException(
                 "argument to get() is null");
