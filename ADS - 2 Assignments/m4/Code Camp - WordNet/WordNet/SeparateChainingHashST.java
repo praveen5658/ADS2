@@ -1,8 +1,6 @@
-/**
+/**.
  * Class for separate chaining hash st.
  *
- * @param      <Key>    The key
- * @param      <Bag<Integer>>  The value
  */
 class SeparateChainingHashST {
     /**
@@ -21,6 +19,9 @@ class SeparateChainingHashST {
     //  * { array of linked-list symbol tables }.
     //  */
     // private SequentialSearchST<Key, Value>[] st;
+    /**.
+        Private Value.
+    */
     private Bag<Integer>[] bag;
 
     /**

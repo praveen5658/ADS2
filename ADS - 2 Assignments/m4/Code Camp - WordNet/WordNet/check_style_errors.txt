@@ -9,13 +9,10 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m4\Code Camp - WordNet\WordNet\SeparateChainingHashST.java:4:4: Unused @param tag for '<Key>'. [JavadocType]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m4\Code Camp - WordNet\WordNet\SeparateChainingHashST.java:5:4: Unused @param tag for '<Bag<Integer>'. [JavadocType]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m4\Code Camp - WordNet\WordNet\SeparateChainingHashST.java:24:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m4\Code Camp - WordNet\WordNet\SeparateChainingHashST.java:146: Unused Javadoc tag. [JavadocMethod]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m4\Code Camp - WordNet\WordNet\SeparateChainingHashST.java:148:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m4\Code Camp - WordNet\WordNet\SeparateChainingHashST.java:147: Unused Javadoc tag. [JavadocMethod]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m4\Code Camp - WordNet\WordNet\SeparateChainingHashST.java:149:5: Redundant 'public' modifier. [RedundantModifier]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 Audit done.
 Starting audit...
