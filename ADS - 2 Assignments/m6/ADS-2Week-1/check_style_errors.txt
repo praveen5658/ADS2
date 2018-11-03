@@ -284,7 +284,6 @@ Audit done.
 Checkstyle ends with 34 errors.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:2:8: Unused import - java.util.Arrays. [UnusedImports]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:3: Missing a Javadoc comment. [JavadocType]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:4:9: Missing a Javadoc comment. [JavadocVariable]
@@ -299,6 +298,7 @@ Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:22: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:26: Line is longer than 80 characters (found 96). [LineLength]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:26:72: 'typecast' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:34:49: ',' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:52: Missing a Javadoc comment. [JavadocType]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:52:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:53:9: Missing a Javadoc comment. [JavadocMethod]
