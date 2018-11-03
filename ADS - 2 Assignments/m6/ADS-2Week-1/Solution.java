@@ -28,7 +28,7 @@ class PageRank {
 					// System.out.println(temp);
 				}
 				finalranks[j] = temp;
-				// System.out.println(finalranks[j]);
+				System.out.println(finalranks[j]);
 				// System.out.println("one sublist is done");
 			}
 			if (Arrays.equals(ranks,finalranks)) {
@@ -36,10 +36,10 @@ class PageRank {
 			} else {
 				ranks = finalranks.clone();
 			}
-			// System.out.println("iteration done");
+			System.out.println("iteration done");
 		}
 		for (int i = 0; i < verticesnumber; i++) {
-			System.out.print(i + " : " + ranks[i] + "\n");
+			System.out.print(i + " : " + finalranks[i] + "\n");
 		}
 	}
 }
