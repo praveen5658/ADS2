@@ -12,12 +12,13 @@ class PageRank {
 			ranks[i] = (1/(double)(verticesnumber));
 			// System.out.print(i + " : "+ ranks[i]+"\n");
 		}
+		Digraph revdigraph = digraph.reverse();
 		System.out.println();
 		for (int i = 0; i < 10; i++){
 			for (int j = 0; j < verticesnumber; j++){
 				// ranks[j] = ((ranks[j])/(digraph.outdegree(j)));
 				temp = 0.0;
-				for (int k : digraph.adj(j)){
+				for (int k : revdigraph.adj(j)){
 					temp += ((ranks[k])/(digraph.outdegree(k)));
 					System.out.println(j);
 				}
