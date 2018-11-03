@@ -39,7 +39,7 @@ class PageRank {
 			// System.out.println("iteration done");
 		}
 		for (int i = 0; i < verticesnumber; i++) {
-			System.out.print(i + " : " + finalranks[i] + "\n");
+			System.out.print(i + " - " + finalranks[i] + "\n");
 		}
 	}
 }
