@@ -6,24 +6,24 @@ class PageRank {
 	private double[] ranks;
 	private double[] finalranks;
 	private double temp;
-	protected PageRank(Digraph d){
+	protected PageRank(Digraph d) {
 		digraph = d;
 		verticesnumber = digraph.V();
 		ranks = new double[verticesnumber];
 		finalranks = new double[verticesnumber];
-		for (int i = 0; i< verticesnumber; i++){
-			ranks[i] = (1/(double)(verticesnumber));
+		for (int i = 0; i < verticesnumber; i++) {
+			ranks[i] = (1 / (double)(verticesnumber));
 			// System.out.print(i + " : "+ ranks[i]+"\n");
 		}
 		Digraph revdigraph = digraph.reverse();
 		System.out.println();
-		for (int i = 0; i < 1000; i++){
-			for (int j = 0; j < verticesnumber; j++){
+		for (int i = 0; i < 1000; i++) {
+			for (int j = 0; j < verticesnumber; j++) {
 				// ranks[j] = ((ranks[j])/(digraph.outdegree(j)));
 				temp = 0.0;
-				for (int k : revdigraph.adj(j)){
+				for (int k : revdigraph.adj(j)) {
 					// System.out.println(k);
-					temp += ((ranks[k])/((double)(digraph.outdegree(k))));
+					temp += ((ranks[k]) / ((double)(digraph.outdegree(k))));
 					// System.out.println(j);
 					// System.out.println(temp);
 				}
@@ -31,11 +31,15 @@ class PageRank {
 				// System.out.println(finalranks[j]);
 				// System.out.println("one sublist is done");
 			}
-			ranks = finalranks.clone();
+			if (ranks == finalranks) {
+				break;
+			} else {
+				ranks = finalranks.clone();
+			}
 			// System.out.println("iteration done");
 		}
-		for (int i = 0; i < verticesnumber; i++){
-			System.out.print(i + " : "+ finalranks[i]+"\n");
+		for (int i = 0; i < verticesnumber; i++) {
+			System.out.print(i + " : " + finalranks[i] + "\n");
 		}
 	}
 }
