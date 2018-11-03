@@ -6,14 +6,8 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:9: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:41:37: 'typecast' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:46:29: '1000' is a magic number. [MagicNumber]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:52:52: 'typecast' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:83:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:101: Line is longer than 80 characters (found 92). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:102: Line is longer than 80 characters (found 97). [LineLength]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:33:5: Missing a Javadoc comment. [JavadocVariable]
 Audit done.
-Checkstyle ends with 8 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 Audit done.

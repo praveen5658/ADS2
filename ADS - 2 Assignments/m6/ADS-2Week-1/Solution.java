@@ -6,6 +6,9 @@ import java.util.Scanner;
  * { item_description }.
  */
 import java.util.Arrays;
+/**
+ * Class for page rank.
+ */
 class PageRank {
     /**
      * Private Value.
@@ -27,6 +30,7 @@ class PageRank {
      * Private Value.
      */
     private double temp;
+    private final int thousand = 1000;
     /**
      * Constructs the object.
      *
@@ -38,18 +42,18 @@ class PageRank {
         ranks = new double[verticesnumber];
         finalranks = new double[verticesnumber];
         for (int i = 0; i < verticesnumber; i++) {
-            ranks[i] = (1 / (double)(verticesnumber));
+            ranks[i] = (1 / (double) (verticesnumber));
             // System.out.print(i + " : "+ ranks[i]+"\n");
         }
         Digraph revdigraph = digraph.reverse();
         // System.out.println();
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < thousand; i++) {
             for (int j = 0; j < verticesnumber; j++) {
                 // ranks[j] = ((ranks[j])/(digraph.outdegree(j)));
                 temp = 0.0;
                 for (int k : revdigraph.adj(j)) {
                     // System.out.println(k);
-                    temp += ((ranks[k]) / ((double)(digraph.outdegree(k))));
+                    temp += ((ranks[k]) / ((double) (digraph.outdegree(k))));
                     // System.out.println(j);
                     // System.out.println(temp);
                 }
@@ -82,6 +86,12 @@ Class Solution.
 */
 public final class Solution {
     /**
+     * Constructs the object.
+     */
+    private Solution() {
+
+    }
+    /**
      * Main.
      *
      * @param      args  The arguments
@@ -98,8 +108,10 @@ public final class Solution {
             input = scan.nextLine().split(" ");
             if (input.length >= 2) {
                 for (int j = 1; j < input.length; j++) {
-                    digraph.addEdge(Integer.parseInt(input[0]), Integer.parseInt(input[j]));
-                    digraphextra.addEdge(Integer.parseInt(input[0]), Integer.parseInt(input[j]));
+                    digraph.addEdge(
+                        Integer.parseInt(input[0]), Integer.parseInt(input[j]));
+                    digraphextra.addEdge(
+                        Integer.parseInt(input[0]), Integer.parseInt(input[j]));
                 }
             } else {
                 for (int h = 0; (h < verticesnumber); h++) {
