@@ -3,11 +3,13 @@ class PageRank {
 	private Digraph digraph;
 	private int verticesnumber;
 	private double[] ranks;
+	private double[] finalranks;
 	private double temp;
 	protected PageRank(Digraph d){
 		digraph = d;
 		verticesnumber = digraph.V();
 		ranks = new double[verticesnumber];
+		finalranks = new double[verticesnumber];
 		for (int i = 0; i< verticesnumber; i++){
 			ranks[i] = (1/(double)(verticesnumber));
 			// System.out.print(i + " : "+ ranks[i]+"\n");
@@ -24,8 +26,8 @@ class PageRank {
 					System.out.println(j);
 					System.out.println(temp);
 				}
-				ranks[j] = temp;
-				System.out.println(ranks[j]);
+				finalranks[j] = temp;
+				System.out.println(finalranks[j]);
 				System.out.println("one sublist is done");
 			}
 			System.out.println("iteration done");
