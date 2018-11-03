@@ -22,7 +22,9 @@ class PageRank {
 					System.out.println(j);
 				}
 				ranks[j] = temp;
+				System.out.println("one sublist is done");
 			}
+			System.out.println("iteration done");
 		}
 		for (int i = 0; i < verticesnumber; i++){
 			System.out.print(i + " : "+ ranks[i]+"\n");
