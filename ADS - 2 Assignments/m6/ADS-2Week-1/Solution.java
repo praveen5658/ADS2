@@ -19,8 +19,8 @@ public class Solution {
 		for (int i = 0; i < verticesnumber; i++) {
 			input = scan.nextLine().split(" ");
 			if (input.length >= 2) {
-				for (int j = 1; j < input.length - 1; j++) {
-					digraph.addEdge(Integer.parseInt(input[i]), Integer.parseInt(input[j]));
+				for (int j = 1; j < input.length; j++) {
+					digraph.addEdge(Integer.parseInt(input[0]), Integer.parseInt(input[j]));
 				}
 			}
 		}
