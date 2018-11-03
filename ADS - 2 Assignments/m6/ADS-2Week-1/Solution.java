@@ -14,7 +14,7 @@ class PageRank {
 		}
 		Digraph revdigraph = digraph.reverse();
 		System.out.println();
-		for (int i = 0; i < 10; i++){
+		for (int i = 0; i < 3; i++){
 			for (int j = 0; j < verticesnumber; j++){
 				// ranks[j] = ((ranks[j])/(digraph.outdegree(j)));
 				temp = 0.0;
