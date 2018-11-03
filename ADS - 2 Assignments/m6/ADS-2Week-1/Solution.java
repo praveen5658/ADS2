@@ -10,7 +10,9 @@ class PageRank {
 		ranks = new double[verticesnumber];
 		for (int i = 0; i< verticesnumber; i++){
 			ranks[i] = (1/(verticesnumber));
+			System.out.print(i + " : "+ ranks[i]+"\n");
 		}
+		System.out.println();
 		for (int i = 0; i < 1000; i++){
 			for (int j = 0; j < verticesnumber; j++){
 				// ranks[j] = ((ranks[j])/(digraph.outdegree(j)));
@@ -48,6 +50,7 @@ public class Solution {
 				}
 			}
 		}
+		System.out.println(digraph);
 		System.out.println();
 		PageRank pr = new PageRank(digraph);
 		// System.out.println(digraph);
