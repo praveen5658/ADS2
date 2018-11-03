@@ -19,7 +19,7 @@ class PageRank {
 				// ranks[j] = ((ranks[j])/(digraph.outdegree(j)));
 				temp = 0.0;
 				for (int k : revdigraph.adj(j)){
-					temp += ((ranks[k])/(digraph.outdegree(k)));
+					temp += ((ranks[k])/((double)digraph.outdegree(k)));
 					System.out.println(j);
 				}
 				ranks[j] = temp;
