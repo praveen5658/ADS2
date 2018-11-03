@@ -17,22 +17,22 @@ class PageRank {
 		}
 		Digraph revdigraph = digraph.reverse();
 		System.out.println();
-		for (int i = 0; i < 3; i++){
+		for (int i = 0; i < 1000; i++){
 			for (int j = 0; j < verticesnumber; j++){
 				// ranks[j] = ((ranks[j])/(digraph.outdegree(j)));
 				temp = 0.0;
 				for (int k : revdigraph.adj(j)){
-					System.out.println(k);
+					// System.out.println(k);
 					temp += ((ranks[k])/((double)(digraph.outdegree(k))));
-					System.out.println(j);
-					System.out.println(temp);
+					// System.out.println(j);
+					// System.out.println(temp);
 				}
 				finalranks[j] = temp;
-				System.out.println(finalranks[j]);
-				System.out.println("one sublist is done");
+				// System.out.println(finalranks[j]);
+				// System.out.println("one sublist is done");
 			}
 			ranks = finalranks.clone();
-			System.out.println("iteration done");
+			// System.out.println("iteration done");
 		}
 		for (int i = 0; i < verticesnumber; i++){
 			System.out.print(i + " : "+ finalranks[i]+"\n");
