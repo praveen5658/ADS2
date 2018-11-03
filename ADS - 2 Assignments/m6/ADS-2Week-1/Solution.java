@@ -63,6 +63,15 @@ public class Solution {
 				for (int j = 1; j < input.length; j++) {
 					digraph.addEdge(Integer.parseInt(input[0]), Integer.parseInt(input[j]));
 				}
+			} else {
+				for (int h = 0; (h < verticesnumber);h++){
+					if (h == i){
+						continue;
+					}
+					else {
+						digraph.addEdge(Integer.parseInt(input[0]), h);
+					}
+				}
 			}
 		}
 		System.out.println(digraph);
