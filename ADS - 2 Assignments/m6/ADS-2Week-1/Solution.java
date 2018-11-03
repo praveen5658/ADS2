@@ -21,6 +21,7 @@ class PageRank {
 				for (int k : revdigraph.adj(j)){
 					temp += ((ranks[k])/((double)(digraph.outdegree(k))));
 					System.out.println(j);
+					System.out.println(temp);
 				}
 				ranks[j] = temp;
 				System.out.println(ranks[j]);
