@@ -5,9 +5,6 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:33:5: Missing a Javadoc comment. [JavadocVariable]
 Audit done.
-Checkstyle ends with 2 errors.
 Starting audit...
 Audit done.

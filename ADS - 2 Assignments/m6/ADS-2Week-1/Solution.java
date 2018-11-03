@@ -30,6 +30,9 @@ class PageRank {
      * Private Value.
      */
     private double temp;
+    /**
+     * Private Value.
+     */
     private final int thousand = 1000;
     /**
      * Constructs the object.
@@ -150,3 +153,4 @@ public final class Solution {
 
     }
 }
+
