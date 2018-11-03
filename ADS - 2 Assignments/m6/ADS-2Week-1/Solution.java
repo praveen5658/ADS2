@@ -77,7 +77,7 @@ public class Solution {
 			}
 		}
 		System.out.println(digraph);
-		System.out.println();
+		// System.out.println();
 		PageRank pr = new PageRank(digraphextra);
 		// System.out.println(digraph);
 		// to read the adjacency list from std input
