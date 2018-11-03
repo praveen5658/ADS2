@@ -297,6 +297,7 @@ Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:11:56: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:12:38: '/' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:12:39: '/' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:12:47: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:13:51: '+' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:13:61: '+' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:13:62: '+' is not followed by whitespace. [WhitespaceAround]
@@ -321,7 +322,7 @@ Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:61: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:71: Line is longer than 80 characters (found 85). [LineLength]
 Audit done.
-Checkstyle ends with 37 errors.
+Checkstyle ends with 38 errors.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Stack.java:13: Line has trailing spaces. [RegexpSingleline]

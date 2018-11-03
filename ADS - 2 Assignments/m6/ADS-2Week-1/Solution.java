@@ -9,7 +9,7 @@ class PageRank {
 		verticesnumber = digraph.V();
 		ranks = new double[verticesnumber];
 		for (int i = 0; i< verticesnumber; i++){
-			ranks[i] = (1/(verticesnumber));
+			ranks[i] = (1/(double)(verticesnumber));
 			System.out.print(i + " : "+ ranks[i]+"\n");
 		}
 		System.out.println();
