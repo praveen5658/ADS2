@@ -56,12 +56,14 @@ public class Solution {
 		int verticesnumber = Integer.parseInt(scan.nextLine());
 		String[] input;
 		Digraph digraph = new Digraph(verticesnumber);
+		Digraph digraphextra = new Digraph(verticesnumber);
 		// iterate count of vertices times
 		for (int i = 0; i < verticesnumber; i++) {
 			input = scan.nextLine().split(" ");
 			if (input.length >= 2) {
 				for (int j = 1; j < input.length; j++) {
 					digraph.addEdge(Integer.parseInt(input[0]), Integer.parseInt(input[j]));
+					digraphextra.addEdge(Integer.parseInt(input[0]), Integer.parseInt(input[j]));
 				}
 			} else {
 				for (int h = 0; (h < verticesnumber);h++){
@@ -69,14 +71,14 @@ public class Solution {
 						continue;
 					}
 					else {
-						digraph.addEdge(Integer.parseInt(input[0]), h);
+						digraphextra.addEdge(Integer.parseInt(input[0]), h);
 					}
 				}
 			}
 		}
 		System.out.println(digraph);
 		System.out.println();
-		PageRank pr = new PageRank(digraph);
+		PageRank pr = new PageRank(digraphextra);
 		// System.out.println(digraph);
 		// to read the adjacency list from std input
 		// and build the graph
