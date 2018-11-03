@@ -13,7 +13,7 @@ class PageRank {
 			// System.out.print(i + " : "+ ranks[i]+"\n");
 		}
 		System.out.println();
-		for (int i = 0; i < 1000; i++){
+		for (int i = 0; i < 10; i++){
 			for (int j = 0; j < verticesnumber; j++){
 				// ranks[j] = ((ranks[j])/(digraph.outdegree(j)));
 				temp = 0.0;
@@ -22,6 +22,7 @@ class PageRank {
 					System.out.println(j);
 				}
 				ranks[j] = temp;
+				System.out.println(ranks[j]);
 				System.out.println("one sublist is done");
 			}
 			System.out.println("iteration done");
