@@ -1,7 +1,31 @@
 import java.util.Scanner;
-// class PageRank {
-
-// }
+class PageRank {
+	private Digraph digraph;
+	private int verticesnumber;
+	private double[] ranks;
+	private double temp;
+	protected PageRank(Digraph d){
+		digraph = d;
+		verticesnumber = digraph.V();
+		ranks = new double[verticesnumber];
+		for (int i = 0; i< verticesnumber; i++){
+			ranks[i] = (1/(verticesnumber));
+		}
+		for (int i = 0; i < 1000; i++){
+			for (int j = 0; j < verticesnumber; j++){
+				// ranks[j] = ((ranks[j])/(digraph.outdegree(j)));
+				temp = 0.0;
+				for (int k : digraph.adj(j)){
+					temp += ((ranks[k])/(digraph.outdegree(k)));
+				}
+				ranks[j] = temp;
+			}
+		}
+		for (int i = 0; i < verticesnumber; i++){
+			System.out.print(i + " : "+ ranks[i]+"\n");
+		}
+	}
+}
 
 // class WebSearch {
 
@@ -24,7 +48,9 @@ public class Solution {
 				}
 			}
 		}
-		System.out.println(digraph);
+		System.out.println();
+		PageRank pr = new PageRank(digraph);
+		// System.out.println(digraph);
 		// to read the adjacency list from std input
 		// and build the graph
 
