@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 class PageRank {
 	private Digraph digraph;
 	private int verticesnumber;
@@ -30,10 +31,11 @@ class PageRank {
 				System.out.println(finalranks[j]);
 				System.out.println("one sublist is done");
 			}
+			ranks = finalranks.clone();
 			System.out.println("iteration done");
 		}
 		for (int i = 0; i < verticesnumber; i++){
-			System.out.print(i + " : "+ ranks[i]+"\n");
+			System.out.print(i + " : "+ finalranks[i]+"\n");
 		}
 	}
 }
