@@ -6,22 +6,16 @@ Audit done.
 Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:70: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:75:40: Name 'V1' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:76: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:76: Line is longer than 80 characters (found 97). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:89:16: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:98:16: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:109: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:110: Line is longer than 80 characters (found 104). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:117: Line is longer than 80 characters (found 99). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:154: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:166:17: '}' at column 17 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:167: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:169: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:181: Line is longer than 80 characters (found 93). [LineLength]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:113: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:114: Line is longer than 80 characters (found 104). [LineLength]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:121: Line is longer than 80 characters (found 99). [LineLength]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:158: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:170:17: '}' at column 17 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:171: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:173: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:185: Line is longer than 80 characters (found 93). [LineLength]
 Audit done.
-Checkstyle ends with 15 errors.
+Checkstyle ends with 9 errors.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\KruskalMST.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
