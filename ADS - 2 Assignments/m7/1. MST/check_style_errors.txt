@@ -112,37 +112,7 @@ Starting audit...
 Audit done.
 Checkstyle ends with 1 errors.
 Starting audit...
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:13: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:14: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:27: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:28: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:29: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:36: Line is longer than 80 characters (found 88). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:49:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:50:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:53: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:54:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:55:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:89:22: Parameter item should be final. [FinalParameters]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:104: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:119: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:126: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:136: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:139: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:141: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:148: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:149:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:151:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:151:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:151:29: Parameter first should be final. [FinalParameters]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:151:40: 'first' hides a field. [HiddenField]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:155:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:159:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:163:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:164: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Stack.java:166: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 29 errors.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\StdOut.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\StdOut.java:18: Line is longer than 80 characters (found 106). [LineLength]
