@@ -2,17 +2,8 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Edge.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Edge.java:51:27: 'v' hides a field. [HiddenField]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Edge.java:51:40: 'w' hides a field. [HiddenField]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Edge.java:51:56: 'weight' hides a field. [HiddenField]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Edge.java:52: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Edge.java:54: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Edge.java:56: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Edge.java:91: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Edge.java:92: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\Edge.java:93: 'else' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\EdgeWeightedGraph.java:12: Line has trailing spaces. [RegexpSingleline]
