@@ -55,14 +55,8 @@ Audit done.
 Checkstyle ends with 46 errors.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\KruskalMST.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\KruskalMST.java:84:47: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\KruskalMST.java:118: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\KruskalMST.java:119: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\KruskalMST.java:133:51: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\KruskalMST.java:175: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m7\1. MST\KruskalMST.java:184: Line is longer than 80 characters (found 81). [LineLength]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.
 Starting audit...
