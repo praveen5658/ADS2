@@ -171,8 +171,7 @@ public class EdgeWeightedGraph {
             for (Edge e : adj(v)) {
                 if (e.other(v) > v) {
                     list.add(e);
-                }
-                else if (e.other(v) == v) {
+                } else if (e.other(v) == v) {
                     if (selfLoops % 2 == 0) {
                         list.add(e);
                     }
