@@ -6,11 +6,7 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:68:43: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:68:44: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:68:45: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m6\ADS-2Week-1\Solution.java:68:46: '+' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.

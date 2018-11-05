@@ -65,7 +65,7 @@ class PageRank {
                 // System.out.println("one sublist is done");
             }
             if (Arrays.equals(ranks, finalranks)) {
-                System.out.print("equal i"+i+"\n");
+                // System.out.print("equal i"+i+"\n");
                 break;
             } else {
                 ranks = finalranks.clone();
