@@ -17,6 +17,6 @@ class Solution {
 			                         input[2])));
 		}
 		KruskalMST kmst = new KruskalMST(ewg);
-		System.out.println(kmst.weight());
+		System.out.format("%.5f\n", kmst.weight());
 	}
 }
