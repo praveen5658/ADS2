@@ -33,7 +33,7 @@ class PageRank {
     /**
      * Private Value.
      */
-    private final int thousand = 1001;
+    private final int thousand = 1000;
     /**
      * Constructs the object.
      *
