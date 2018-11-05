@@ -110,15 +110,18 @@ public class EdgeWeightedGraph {
      * @param      v     { parameter_description }
      */
     private void validateVertex(final int v) {
-        if (v < 0 || v >= vertex)
-            throw new IllegalArgumentException("vertex " + v + " is not between 0 and " + (vertex - 1));
+        if (v < 0 || v >= vertex) {
+            throw new IllegalArgumentException(
+                "vertex " + v + " is not between 0 and " + (vertex - 1));
+        }
     }
 
     /**
      * Adds the undirected edge {@code e} to this edge-weighted graph.
      *
      * @param  e the edge
-     * @throws IllegalArgumentException unless both endpoints are between {@code 0} and {@code V-1}
+     * @throws IllegalArgumentException unless both endpoints are
+     * between {@code 0} and {@code V-1}
      */
     public void addEdge(final Edge e) {
         int v = e.either();
@@ -155,7 +158,8 @@ public class EdgeWeightedGraph {
 
     /**
      * Returns all edges in this edge-weighted graph.
-     * To iterate over the edges in this edge-weighted graph, use foreach notation:
+     * To iterate over the edges in this edge-weighted
+     * graph, use foreach notation:
      * {@code for (Edge e : G.edges())}.
      *
      * @return all edges in this edge-weighted graph, as an iterable
@@ -168,9 +172,12 @@ public class EdgeWeightedGraph {
                 if (e.other(v) > v) {
                     list.add(e);
                 }
-                // add only one copy of each self loop (self loops will be consecutive)
+                // add only one copy of each self loop
+                //(self loops will be consecutive)
                 else if (e.other(v) == v) {
-                    if (selfLoops % 2 == 0) list.add(e);
+                    if (selfLoops % 2 == 0) {
+                        list.add(e);
+                    }
                     selfLoops++;
                 }
             }
@@ -182,7 +189,8 @@ public class EdgeWeightedGraph {
      * Returns a string representation of the edge-weighted graph.
      * This method takes time proportional to <em>E</em> + <em>V</em>.
      *
-     * @return the number of vertices <em>V</em>, followed by the number of edges <em>E</em>,
+     * @return the number of vertices <em>V</em>, followed by the number
+     * of edges <em>E</em>,
      *         followed by the <em>V</em> adjacency lists of edges
      */
     public String toString() {
