@@ -72,7 +72,7 @@ public class EdgeWeightedGraph {
      *
      * @param  v1 the number of vertices
      * @throws IllegalArgumentException if {@code V < 0}
-     * 
+     *
      * Time Complexity : O(V)
      */
     public EdgeWeightedGraph(final int v1) {
