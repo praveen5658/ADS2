@@ -33,7 +33,7 @@ class PageRank {
     /**
      * Private Value.
      */
-    private final int thousand = 1000;
+    private final int thousand = 1001;
     /**
      * Constructs the object.
      *
@@ -78,11 +78,19 @@ class PageRank {
 }
 
 // class WebSearch {
-//  private String[] input;
-//  protected WebSearch(final String file) {
-//      In in = new In(file);
-//      input = in.readAllLines();
-//  }
+//     private String[] input;
+//     private String[] sample;
+//     protected WebSearch(final String file) {
+//         In in = new In(file);
+//         input = in.readAllLines();
+//         HashMap<Integer, Bag<String>> hashmap = new HashMap<>();
+//         for (int i = 0; i < input.length; i++) {
+//             sample = input[i].split(" ");
+//             for (int j = 0; j < sample.length; j ++){
+//                 hashmap.putIfAbsent(i, new Bag<String>().add(sample[j]));
+//             }
+//         }
+//     }
 // }
 /**
 Class Solution.
