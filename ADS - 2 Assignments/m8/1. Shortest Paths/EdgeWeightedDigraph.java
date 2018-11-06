@@ -9,35 +9,41 @@ public class EdgeWeightedDigraph {
     /**
      * { Vertices variable }.
      */
-    private final int vertices;                // number of vertices in this digraph
+    private final int vertices;
     /**
      * { E variable }.
      */
     private int edges;
     /**
-     * { Bag variable }.
-     */// number of edges in this digraph
-    private Bag<DirectedEdge>[] adj;    // adj[v] = adjacency list for vertex v
-    private int[] indegree;             // indegree[v] = indegree of vertex v
-
+     * { Bag of directed edges }.
+     */
+    private Bag<DirectedEdge>[] adj;
     /**
-     * Initializes an empty edge-weighted digraph with {@code V} vertices and 0 edges.
+     * { indegree variable }.
+     */
+    private int[] indegree;
+    /**
+     * Constructs the object.
      *
-     * @param  V the number of vertices
-     * @throws IllegalArgumentException if {@code V < 0}
+     * @param      inputvertices  The inputvertices
      */
     public EdgeWeightedDigraph(final int inputvertices) {
-        if (inputvertices < 0) throw new IllegalArgumentException("Number of vertices in a Digraph must be nonnegative");
+        if (inputvertices < 0) {
+            throw new IllegalArgumentException(
+                "Number of vertices in a Digraph must be nonnegative");
+        }
         this.vertices = inputvertices;
         this.edges = 0;
         this.indegree = new int[vertices];
         adj = (Bag<DirectedEdge>[]) new Bag[vertices];
-        for (int v = 0; v < vertices; v++)
+        for (int v = 0; v < vertices; v++) {
             adj[v] = new Bag<DirectedEdge>();
+        }
     }
 
     // /**
-    //  * Initializes a random edge-weighted digraph with {@code V} vertices and <em>E</em> edges.
+    //  * Initializes a random edge-weighted digraph with
+    //   {@code V} vertices and <em>E</em> edges.
     //  *
     //  * @param  V the number of vertices
     //  * @param  E the number of edges
@@ -46,7 +52,12 @@ public class EdgeWeightedDigraph {
     //  */
     // public EdgeWeightedDigraph(int V, int E) {
     //     this(V);
-    //     if (E < 0) throw new IllegalArgumentException("Number of edges in a Digraph must be nonnegative");
+    //     if (E < 0) {
+    //          throw new IllegalArgumentException(
+    //          "Number of edges in
+    //          a Digraph must be
+    //          nonnegative");
+    //     }
     //     for (int i = 0; i < E; i++) {
     //         int v = StdRandom.uniform(V);
     //         int w = StdRandom.uniform(V);
@@ -64,13 +75,20 @@ public class EdgeWeightedDigraph {
     //  * with each entry separated by whitespace.
     //  *
     //  * @param  in the input stream
-    //  * @throws IllegalArgumentException if the endpoints of any edge are not in prescribed range
-    //  * @throws IllegalArgumentException if the number of vertices or edges is negative
+    //  * @throws IllegalArgumentException
+    //    if the endpoints of any
+    //    edge are not in prescribed range
+    //  * @throws IllegalArgumentException
+    //    if the number of vertices
+    //    or edges is negative
     //  */
     // public EdgeWeightedDigraph(In in) {
     //     this(in.readInt());
     //     int E = in.readInt();
-    //     if (E < 0) throw new IllegalArgumentException("Number of edges must be nonnegative");
+    //     if (E < 0) {
+    //     throw new IllegalArgumentException(
+    //     "Number of edges must be nonnegative");
+    //     }
     //     for (int i = 0; i < E; i++) {
     //         int v = in.readInt();
     //         int w = in.readInt();
@@ -82,7 +100,9 @@ public class EdgeWeightedDigraph {
     // }
 
     // /**
-    //  * Initializes a new edge-weighted digraph that is a deep copy of {@code G}.
+    //  * Initializes a new
+    //    edge-weighted digraph
+    //    that is a deep copy of {@code G}.
     //  *
     //  * @param  G the edge-weighted digraph to copy
     //  */
@@ -120,18 +140,26 @@ public class EdgeWeightedDigraph {
     public int edgescount() {
         return edges;
     }
-
-    // throw an IllegalArgumentException unless {@code 0 <= v < V}
+    /**
+     * { validate Vertex }.
+     *
+     * @param      v     { int type }
+     */
     private void validateVertex(final int v) {
-        if (v < 0 || v >= vertices)
-            throw new IllegalArgumentException("vertex " + v + " is not between 0 and " + (vertices - 1));
+        if (v < 0 || v >= vertices) {
+            throw new IllegalArgumentException(
+                "vertex " + v + " is not between 0 and "
+                + (vertices - 1));
+        }
     }
 
     /**
      * Adds the directed edge {@code e} to this edge-weighted digraph.
      *
      * @param  e the edge
-     * @throws IllegalArgumentException unless endpoints of edge are between {@code 0}
+     * @throws IllegalArgumentException
+     *  unless endpoints of edge are between {
+     *  @code 0}
      *         and {@code V-1}
      */
     public void addEdge(final DirectedEdge e) {
@@ -165,7 +193,7 @@ public class EdgeWeightedDigraph {
      * @return the outdegree of vertex {@code v}
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
      */
-    public int outdegree(int v) {
+    public int outdegree(final int v) {
         validateVertex(v);
         return adj[v].size();
     }
@@ -185,7 +213,9 @@ public class EdgeWeightedDigraph {
 
     /**
      * Returns all directed edges in this edge-weighted digraph.
-     * To iterate over the edges in this edge-weighted digraph, use foreach notation:
+     * To iterate over the edges
+     * in this edge-weighted digraph,
+     * use foreach notation:
      * {@code for (DirectedEdge e : G.edges())}.
      *
      * @return all edges in this edge-weighted digraph, as an iterable
@@ -203,7 +233,9 @@ public class EdgeWeightedDigraph {
     /**
      * Returns a string representation of this edge-weighted digraph.
      *
-     * @return the number of vertices <em>V</em>, followed by the number of edges <em>E</em>,
+     * @return the number of vertices
+     *  <em>V</em>, followed by the
+     *   number of edges <em>E</em>,
      *         followed by the <em>V</em> adjacency lists of edges
      */
     public String toString() {

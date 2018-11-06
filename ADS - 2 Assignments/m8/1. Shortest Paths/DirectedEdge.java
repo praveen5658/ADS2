@@ -1,25 +1,43 @@
-public class DirectedEdge { 
+/**
+ * Class for directed edge.
+ */
+public class DirectedEdge {
+    /**
+     * v.
+     */
     private final int v;
+    /**
+     * w.
+     */
     private final int w;
+    /**
+     * weight.
+     */
     private final double weight;
 
     /**
-     * Initializes a directed edge from vertex {@code v} to vertex {@code w} with
-     * the given {@code weight}.
-     * @param v the tail vertex
-     * @param w the head vertex
-     * @param weight the weight of the directed edge
-     * @throws IllegalArgumentException if either {@code v} or {@code w}
-     *    is a negative integer
-     * @throws IllegalArgumentException if {@code weight} is {@code NaN}
+     * Constructs the object.
+     *
+     * @param      vv    { parameter_description }
+     * @param      ww    { parameter_description }
+     * @param      wei   The wei
      */
-    public DirectedEdge(int v, int w, double weight) {
-        if (v < 0) throw new IllegalArgumentException("Vertex names must be nonnegative integers");
-        if (w < 0) throw new IllegalArgumentException("Vertex names must be nonnegative integers");
-        if (Double.isNaN(weight)) throw new IllegalArgumentException("Weight is NaN");
-        this.v = v;
-        this.w = w;
-        this.weight = weight;
+    public DirectedEdge(final int vv, final int ww, final double wei) {
+        if (vv < 0) {
+            throw new IllegalArgumentException(
+                "Vertex names must be nonnegative integers");
+        }
+        if (ww < 0) {
+            throw new IllegalArgumentException(
+                "Vertex names must be nonnegative integers");
+        }
+        if (Double.isNaN(wei)) {
+            throw new IllegalArgumentException(
+                "Weight is NaN");
+        }
+        this.v = vv;
+        this.w = ww;
+        this.weight = wei;
     }
 
     /**
