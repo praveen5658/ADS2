@@ -47,7 +47,7 @@ final class Solution {
             String[] querydetails = scan.nextLine().split(" ");
             DijkstraSP dijkobj = new DijkstraSP(
                 edgegraph, stationlist.indexOf(querydetails[0]));
-            System.out.println((long)dijkobj.distTo(
+            System.out.println((long) dijkobj.distTo(
                                    stationlist.indexOf(querydetails[1])));
         }
     }
