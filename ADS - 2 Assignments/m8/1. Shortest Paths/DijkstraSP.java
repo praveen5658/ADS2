@@ -27,6 +27,7 @@ public class DijkstraSP {
      * @param  s the source vertex
      * @throws IllegalArgumentException if an edge weight is negative
      * @throws IllegalArgumentException unless {@code 0 <= s < V}
+     * Time Complexity : O(E logE)
      */
     public DijkstraSP(final EdgeWeightedDigraph graph, final int s) {
         for (DirectedEdge e : graph.edges()) {
@@ -65,6 +66,7 @@ public class DijkstraSP {
      * { function_description }.
      *
      * @param      e     { parameter_description }
+     * Time Complexity : O(1)
      */
     private void relax(final DirectedEdge e) {
         int v = e.from(), w = e.to();
@@ -87,6 +89,7 @@ public class DijkstraSP {
      * source vertex {@code s} to vertex {@code v};
      *         {@code Double.POSITIVE_INFINITY} if no such path
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
+     * Time Complexity : O(1)
      */
     public double distTo(final int v) {
         validateVertex(v);
@@ -101,6 +104,7 @@ public class DijkstraSP {
      * @return {@code true} if there is a path from the source vertex
      *         {@code s} to vertex {@code v}; {@code false} otherwise
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
+     * Time Complexity : O(1)
      */
     public boolean hasPathTo(final int v) {
         validateVertex(v);
@@ -113,6 +117,7 @@ public class DijkstraSP {
      * @param      s     { parameter_description }
      *
      * @return     { description_of_the_return_value }
+     * Time Complexity : O(E)
      */
     private boolean check(final EdgeWeightedDigraph graph, final int s) {
 
@@ -175,6 +180,7 @@ public class DijkstraSP {
      * { function_description }.
      *
      * @param      v     { parameter_description }
+     * Time Complexity : O(1)
      */
     private void validateVertex(final int v) {
         int vert = distTo.length;
