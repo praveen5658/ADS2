@@ -5,15 +5,18 @@ public class DijkstraSP {
     /**
      * Value.
      */
-    private double[] distTo;         // distTo[v] = distance  of shortest s->v path
+    private double[] distTo;
+    // distTo[v] = distance  of shortest s->v path
     /**
      * Value.
      */
-    private DirectedEdge[] edgeTo;    // edgeTo[v] = last edge on shortest s->v path
+    private DirectedEdge[] edgeTo;
+    // edgeTo[v] = last edge on shortest s->v path
     /**
      * Value.
      */
-    private IndexMinPQ<Double> pq;    // priority queue of vertices
+    private IndexMinPQ<Double> pq;
+    // priority queue of vertices
 
     /**
      * Computes a shortest-paths tree from the source vertex {@code s} to every other
@@ -24,32 +27,32 @@ public class DijkstraSP {
      * @throws IllegalArgumentException if an edge weight is negative
      * @throws IllegalArgumentException unless {@code 0 <= s < V}
      */
-    public DijkstraSP(final EdgeWeightedDigraph G, final int s) {
-        for (DirectedEdge e : G.edges()) {
+    public DijkstraSP(final EdgeWeightedDigraph graph, final int s) {
+        for (DirectedEdge e : graph.edges()) {
             if (e.weight() < 0)
                 throw new IllegalArgumentException("edge " + e + " has negative weight");
         }
 
-        distTo = new double[G.V()];
-        edgeTo = new DirectedEdge[G.V()];
+        distTo = new double[graph.verticescount()];
+        edgeTo = new DirectedEdge[graph.verticescount()];
 
         validateVertex(s);
 
-        for (int v = 0; v < G.V(); v++)
+        for (int v = 0; v < graph.verticescount(); v++)
             distTo[v] = Double.POSITIVE_INFINITY;
         distTo[s] = 0.0;
 
         // relax vertices in order of distance from s
-        pq = new IndexMinPQ<Double>(G.V());
+        pq = new IndexMinPQ<Double>(graph.verticescount());
         pq.insert(s, distTo[s]);
         while (!pq.isEmpty()) {
             int v = pq.delMin();
-            for (DirectedEdge e : G.adj(v))
+            for (DirectedEdge e : graph.adj(v))
                 relax(e);
         }
 
         // check optimality conditions
-        assert check(G, s);
+        assert check(graph, s);
     }
 
     // relax edge e and update pq if changed
@@ -95,10 +98,10 @@ public class DijkstraSP {
      *
      * @return     { description_of_the_return_value }
      */
-    private boolean check(final EdgeWeightedDigraph G, final int s) {
+    private boolean check(final EdgeWeightedDigraph graph, final int s) {
 
         // check that edge weights are nonnegative
-        for (DirectedEdge e : G.edges()) {
+        for (DirectedEdge e : graph.edges()) {
             if (e.weight() < 0) {
                 System.err.println("negative edge weight detected");
                 return false;
@@ -110,7 +113,7 @@ public class DijkstraSP {
             System.err.println("distTo[s] and edgeTo[s] inconsistent");
             return false;
         }
-        for (int v = 0; v < G.V(); v++) {
+        for (int v = 0; v < graph.verticescount(); v++) {
             if (v == s) continue;
             if (edgeTo[v] == null && distTo[v] != Double.POSITIVE_INFINITY) {
                 System.err.println("distTo[] and edgeTo[] inconsistent");
@@ -119,8 +122,8 @@ public class DijkstraSP {
         }
 
         // check that all edges e = v->w satisfy distTo[w] <= distTo[v] + e.weight()
-        for (int v = 0; v < G.V(); v++) {
-            for (DirectedEdge e : G.adj(v)) {
+        for (int v = 0; v < graph.verticescount(); v++) {
+            for (DirectedEdge e : graph.adj(v)) {
                 int w = e.to();
                 if (distTo[v] + e.weight() < distTo[w]) {
                     System.err.println("edge " + e + " not relaxed");
@@ -130,7 +133,7 @@ public class DijkstraSP {
         }
 
         // check that all edges e = v->w on SPT satisfy distTo[w] == distTo[v] + e.weight()
-        for (int w = 0; w < G.V(); w++) {
+        for (int w = 0; w < graph.verticescount(); w++) {
             if (edgeTo[w] == null) {
                 continue;
             }
