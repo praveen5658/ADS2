@@ -73,7 +73,7 @@ public class DijkstraSP {
             edgeTo[w] = e;
             if (pq.contains(w)) {
                 pq.decreaseKey(w, distTo[w]);
-            }else {
+            } else {
                 pq.insert(w, distTo[w]);
             }
         }
@@ -139,7 +139,8 @@ public class DijkstraSP {
             }
         }
 
-        // check that all edges e = v->w satisfy distTo[w] <= distTo[v] + e.weight()
+        // check that all edges e = v->w satisfy
+        //distTo[w] <= distTo[v] + e.weight()
         for (int v = 0; v < graph.verticescount(); v++) {
             for (DirectedEdge e : graph.adj(v)) {
                 int w = e.to();
@@ -150,7 +151,8 @@ public class DijkstraSP {
             }
         }
 
-        // check that all edges e = v->w on SPT satisfy distTo[w] == distTo[v] + e.weight()
+        // check that all edges e = v->w on SPT
+        //satisfy distTo[w] == distTo[v] + e.weight()
         for (int w = 0; w < graph.verticescount(); w++) {
             if (edgeTo[w] == null) {
                 continue;
@@ -176,7 +178,9 @@ public class DijkstraSP {
      */
     private void validateVertex(final int v) {
         int vert = distTo.length;
-        if (v < 0 || v >= vert)
-            throw new IllegalArgumentException("vertex " + v + " is not between 0 and " + (vert - 1));
+        if (v < 0 || v >= vert) {
+            throw new IllegalArgumentException(
+                "vertex " + v + " is not between 0 and " + (vert - 1));
+        }
     }
 }

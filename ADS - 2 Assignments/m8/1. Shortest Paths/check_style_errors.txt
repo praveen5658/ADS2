@@ -2,14 +2,8 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\DijkstraSP.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\DijkstraSP.java:76:14: 'else' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\DijkstraSP.java:76:14: '}' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\DijkstraSP.java:142: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\DijkstraSP.java:153: Line is longer than 80 characters (found 91). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\DijkstraSP.java:179: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\DijkstraSP.java:180: Line is longer than 80 characters (found 102). [LineLength]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\DirectedEdge.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\DirectedEdge.java:1: Line has trailing spaces. [RegexpSingleline]
