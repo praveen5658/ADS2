@@ -1,9 +1,7 @@
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\DijkstraSP.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\DirectedEdge.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\DirectedEdge.java:1: Line has trailing spaces. [RegexpSingleline]
@@ -157,19 +155,9 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\Solution.java:3: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\Solution.java:7:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\Solution.java:7:33: Parameter args should be final. [FinalParameters]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\Solution.java:15: Line is longer than 80 characters (found 103). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\Solution.java:18: Line is longer than 80 characters (found 165). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\Solution.java:19: Line is longer than 80 characters (found 166). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\Solution.java:26: Line is longer than 80 characters (found 109). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\Solution.java:27: Line is longer than 80 characters (found 103). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\Solution.java:27:50: 'typecast' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m8\1. Shortest Paths\Solution.java:50:38: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 Audit done.
 Starting audit...
