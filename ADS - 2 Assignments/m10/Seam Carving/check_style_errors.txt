@@ -335,7 +335,6 @@ Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\Solution.java:32:36: Expression can be simplified. [SimplifyBooleanExpression]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\Solution.java:46:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\Solution.java:46:29: Parameter args should be final. [FinalParameters]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\Solution.java:51: switch without "default" clause. [MissingSwitchDefault]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\Solution.java:78: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\Solution.java:79: Line is longer than 80 characters (found 90). [LineLength]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\Solution.java:86: Line is longer than 80 characters (found 82). [LineLength]
@@ -345,7 +344,7 @@ Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\Solution.java:105: Line is longer than 80 characters (found 88). [LineLength]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\Solution.java:115: Line is longer than 80 characters (found 82). [LineLength]
 Audit done.
-Checkstyle ends with 28 errors.
+Checkstyle ends with 27 errors.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\StdOut.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\StdOut.java:16: Line is longer than 80 characters (found 84). [LineLength]

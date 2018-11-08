@@ -121,9 +121,9 @@ public class Solution {
             //     }
             //     break;
 
-            // default:
-            //     seamCarver = new SeamCarver(null);
-            //     break;
+            default:
+                seamCarver = new SeamCarver(null);
+                break;
             }
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
