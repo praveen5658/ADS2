@@ -107,9 +107,16 @@ public class SeamCarver {
 				minindex1 = minindex2;
 			}
 		}
-		System.out.print(minindex1 + "minindex1\n");
-		System.out.print(mindist1 + "mindist1\n");
-		return new int[0];
+		// System.out.print(minindex1 + "minindex1\n");
+		// System.out.print(mindist1 + "mindist1\n");
+		int[] arr = new int[height];
+		int d = height - 2;
+		for (DirectedEdge f : dijkstra1.pathTo(minindex1)){
+			arr[d] = (f.from())%width;
+			d--;
+		}
+		arr[height - 1] = minindex1 % width;
+		return arr;
 	}
 
 	// remove horizontal seam from current picture
