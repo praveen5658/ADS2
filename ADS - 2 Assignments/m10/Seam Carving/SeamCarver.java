@@ -77,6 +77,7 @@ public class SeamCarver {
 		int[] arr = new int[height];
 		double min = Double.POSITIVE_INFINITY;
 		double temp = 0.0;
+		System.out.println(height);
 		for (int j = 1; j < width - 1; j++){
 			if (min > ener[1][j]){
 				min = ener[1][j];
