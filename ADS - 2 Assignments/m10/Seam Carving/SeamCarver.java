@@ -5,24 +5,29 @@ public class SeamCarver {
 	private int height;
 	private Picture picture;
 	private double[][] ener;
+	private int edgeto[];
+	private int distto[];
 	public SeamCarver(Picture picture1) {
 		width = picture1.width();
 		height = picture1.height();
 		picture = picture1;
 		ener = new double[height][width];
+		// edgeto = new int[height * width];
+		// distto = new int[height * width];
+		// for (int i = 0; i < (height * width); i++){
+		// 	distto[i] = Integer.POSITIVE_INFINITY;
+		// }
+		// distto[0] = 0;
 		int temp = 0;
 		int temp1 = 0;
-		// System.out.println("entered");
 		Color c1,c2;
 		for (int i = 0; i< height;i++){
 			for (int j = 0; j < width; j++){
 				temp = 0;
 				temp1 = 0;
 				if (((i==0)||(j==0))||((i==(height-1))||(j==(width-1)))){
-					// System.out.println("Border");
 					ener[i][j] = 1000;
 				} else {
-					// System.out.println("Inner");
 					c1 = picture.get(j+1, i);
 					c2 = picture.get(j - 1, i);
 					temp += Math.pow((c1.getRed() - c2.getRed()), 2);
@@ -34,10 +39,14 @@ public class SeamCarver {
 					temp1 += Math.pow((c1.getGreen() - c2.getGreen()), 2);
 					temp1 += Math.pow((c1.getBlue() - c2.getBlue()), 2);
 					ener[i][j] = Math.sqrt(temp + temp1);
-					// System.out.println("Inner completed");
 				}
 			}
 		}
+		// for (int i = 0; i < height; i++){
+		// 	for (int j = 0; j < width; j++){
+				
+		// 	}
+		// }
 	}
 	// current picture
 	public Picture picture() {
@@ -65,7 +74,32 @@ public class SeamCarver {
 
 	// sequence of indices for vertical seam
 	public int[] findVerticalSeam() {
-		return new int[0];
+		int[] arr = new int[width];
+		double min = Double.POSITIVE_INFINITY;
+		double temp = 0.0;
+		for (int j = 1; j < height - 1; j++){
+			if (min > ener[1][j]){
+				min = ener[1][j];
+				arr[1] = j;
+				arr[0] = j;
+			}
+		}
+		for (int i = 2; i < width - 1; i++){
+			temp = 0.0;
+			temp = min + ener[i][arr[i - 1] - 1];
+			arr[i] = arr[i - 1] - 1;
+			if (temp < (min + ener[i][arr[i - 1]])){
+				temp = (min + ener[i][arr[i - 1]]);
+				arr[i] = arr[i - 1];
+			}
+			if (temp < (min + ener[i][arr[i - 1] + 1])){
+				temp =- (min + ener[i][arr[i - 1] + 1]);
+				arr[i] = arr[i - 1] + 1;
+			}
+			min = temp;
+		}
+		arr[width - 1] = arr[width - 2];
+		return arr;
 	}
 
 	// remove horizontal seam from current picture
@@ -77,4 +111,7 @@ public class SeamCarver {
 	public void removeVerticalSeam(int[] seam) {
 
 	}
+	// public void relax(int i, int j){
+
+	// }
 }
