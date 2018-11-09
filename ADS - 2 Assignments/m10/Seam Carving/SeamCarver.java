@@ -86,6 +86,8 @@ public class SeamCarver {
 			}
 		}
 		System.out.println("FRist enterd");
+		System.out.println(arr[0]);
+		System.out.println(arr[1]);
 		for (int i = 2; i < height - 1; i++){
 			temp = 0.0;
 			temp = min + ener[i][arr[i - 1] - 1];
