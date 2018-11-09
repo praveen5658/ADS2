@@ -101,7 +101,7 @@ public class SeamCarver {
 				arr[i] = arr[i - 1] + 1;
 			}
 			min = temp;
-			System.out.println(arr[i]);
+			System.out.print(arr[i] + "Loop\n");
 		}
 		System.out.println("enterd");
 		arr[height - 1] = arr[height - 2];
