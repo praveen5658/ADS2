@@ -139,8 +139,8 @@ public class SeamCarver {
 					graph.addEdge(new DirectedEdge(((i * width) + j), (((i + 1) * width) + j), ener[i + 1][j]));
 					graph.addEdge(new DirectedEdge(((i * width) + j), (((i + 1) * width) + j + 1), ener[i + 1][j + 1]));
 				} else if (j == (width - 1)) {
-					graph.addEdge(new DirectedEdge(((i * width) + j), (((i + 1) * width) + j), ener[i + 1][j]));
 					graph.addEdge(new DirectedEdge(((i * width) + j), (((i + 1) * width) + j - 1), ener[i + 1][j - 1]));
+					graph.addEdge(new DirectedEdge(((i * width) + j), (((i + 1) * width) + j), ener[i + 1][j]));
 				} else {
 					graph.addEdge(new DirectedEdge(((i * width) + j), (((i + 1) * width) + j - 1), ener[i + 1][j - 1]));
 					graph.addEdge(new DirectedEdge(((i * width) + j), (((i + 1) * width) + j), ener[i + 1][j]));
