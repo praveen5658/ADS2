@@ -292,11 +292,11 @@ Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:99:68: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:100:39: '=' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:100:40: '-' is followed by whitespace. [NoWhitespaceAfter]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:107:49: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:116:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:116:42: Parameter seam should be final. [FinalParameters]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:121:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:121:40: Parameter seam should be final. [FinalParameters]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:108:49: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:117:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:117:42: Parameter seam should be final. [FinalParameters]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:122:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:122:40: Parameter seam should be final. [FinalParameters]
 Audit done.
 Checkstyle ends with 75 errors.
 Starting audit...
