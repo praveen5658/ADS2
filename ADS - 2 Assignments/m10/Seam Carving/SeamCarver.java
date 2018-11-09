@@ -69,6 +69,11 @@ public class SeamCarver {
 
 	// sequence of indices for horizontal seam
 	public int[] findHorizontalSeam() {
+		return new int[0];
+	}
+
+	// sequence of indices for vertical seam
+	public int[] findVerticalSeam() {
 		int[] arr = new int[width];
 		double min = Double.POSITIVE_INFINITY;
 		double temp = 0.0;
@@ -95,11 +100,6 @@ public class SeamCarver {
 		}
 		arr[width - 1] = arr[width - 2];
 		return arr;
-	}
-
-	// sequence of indices for vertical seam
-	public int[] findVerticalSeam() {
-		return new int[0];
 	}
 
 	// remove horizontal seam from current picture
