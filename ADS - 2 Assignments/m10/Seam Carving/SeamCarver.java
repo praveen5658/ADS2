@@ -7,10 +7,12 @@ public class SeamCarver {
 	private double[][] ener;
 	private int edgeto[];
 	private int distto[];
+	private EdgeWeightedDigraph graph;
 	public SeamCarver(Picture picture1) {
 		width = picture1.width();
 		height = picture1.height();
 		picture = picture1;
+		graph = new EdgeWeightedDigraph(width * height);
 		ener = new double[height][width];
 		// edgeto = new int[height * width];
 		// distto = new int[height * width];
@@ -74,51 +76,8 @@ public class SeamCarver {
 
 	// sequence of indices for vertical seam
 	public int[] findVerticalSeam() {
-		int[] arr = new int[height];
-		double min = Double.POSITIVE_INFINITY;
-		double temp = 0.0;
-		// System.out.println(height);
-		for (int j = 1; j < width - 1; j++){
-			if (min > ener[1][j]){
-				min = ener[1][j];
-				arr[1] = j;
-				arr[0] = j;
-			}
-		}
-		// System.out.println("FRist enterd");
-		// System.out.println(arr[0]);
-		// System.out.println(arr[1]);
-		for (int i = 2; i < height - 1; i++){
-			temp = 0.0;
-			temp = min + ener[i][arr[i - 1] - 1];
-			// System.out.print(temp + "temp\n");
-			// System.out.print(min + "min\n");
-			arr[i] = arr[i - 1] - 1;
-			if (temp > (min + ener[i][arr[i - 1]])){
-				temp = (min + ener[i][arr[i - 1]]);
-				arr[i] = arr[i - 1];
-			// 	System.out.print(temp + "temp\n");
-			// System.out.print(min + "min\n");
-
-			}
-			if (temp > (min + ener[i][arr[i - 1] + 1])){
-				temp = (min + ener[i][arr[i - 1] + 1]);
-				arr[i] = arr[i - 1] + 1;
-			// 	System.out.print(temp + "temp\n");
-			// System.out.print(min + "min\n");
-
-			}
-			min = temp;
-			// System.out.print(arr[i] + "Loop\n");
-		}
-		// System.out.println("enterd");
-		arr[height - 1] = arr[height - 2];
-		// for (int h = 0; h < height; h++){
-		// 	System.out.println("Printing Vertical Seam");
-		// 	System.out.println(arr[h]);
-		// }
-		// System.out.println("Ended");
-		return arr;
+		buildgraph();
+		return new int[0];
 	}
 
 	// remove horizontal seam from current picture
@@ -133,4 +92,22 @@ public class SeamCarver {
 	// public void relax(int i, int j){
 
 	// }
+	public void buildgraph(){
+		for (int i = 0; i < height - 1; i ++){
+			for (int j = 0; j < width; j++){
+				if (j == 0){
+					graph.addEdge(new DirectedEdge(((i * width) + j), (((i + 1) * width) + j), ener[i + 1][j]));
+					graph.addEdge(new DirectedEdge(((i * width) + j), (((i + 1) * width) + j + 1), ener[i + 1][j + 1]));
+				} else if (j == (width - 1)){
+					graph.addEdge(new DirectedEdge(((i * width) + j), (((i + 1) * width) + j), ener[i + 1][j]));
+					graph.addEdge(new DirectedEdge(((i * width) + j), (((i + 1) * width) + j - 1), ener[i + 1][j - 1]));
+				} else {
+					graph.addEdge(new DirectedEdge(((i * width) + j), (((i + 1) * width) + j - 1), ener[i + 1][j - 1]));
+					graph.addEdge(new DirectedEdge(((i * width) + j), (((i + 1) * width) + j), ener[i + 1][j]));
+					graph.addEdge(new DirectedEdge(((i * width) + j), (((i + 1) * width) + j + 1), ener[i + 1][j + 1]));
+				}
+			}
+		}
+		System.out.println(graph);
+	}
 }
