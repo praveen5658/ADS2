@@ -74,17 +74,17 @@ public class SeamCarver {
 
 	// sequence of indices for vertical seam
 	public int[] findVerticalSeam() {
-		int[] arr = new int[width];
+		int[] arr = new int[height];
 		double min = Double.POSITIVE_INFINITY;
 		double temp = 0.0;
-		for (int j = 1; j < height - 1; j++){
+		for (int j = 1; j < width - 1; j++){
 			if (min > ener[1][j]){
 				min = ener[1][j];
 				arr[1] = j;
 				arr[0] = j;
 			}
 		}
-		for (int i = 2; i < width - 1; i++){
+		for (int i = 2; i < height - 1; i++){
 			temp = 0.0;
 			temp = min + ener[i][arr[i - 1] - 1];
 			arr[i] = arr[i - 1] - 1;
@@ -98,7 +98,7 @@ public class SeamCarver {
 			}
 			min = temp;
 		}
-		arr[width - 1] = arr[width - 2];
+		arr[height - 1] = arr[height - 2];
 		return arr;
 	}
 
