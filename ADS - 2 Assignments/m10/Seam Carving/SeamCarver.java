@@ -77,6 +77,20 @@ public class SeamCarver {
 	// sequence of indices for vertical seam
 	public int[] findVerticalSeam() {
 		buildgraph();
+		DijkstraSP dijkstra1 = new DijkstraSP(graph, 0);
+		double mindist = dijkstra1.distTo((height - 1)*width);
+		int minindex = (height - 1)*width; 
+		for (int i = ((height - 1)*width)+ 1; i < width * height; i ++){
+			if (mindist > dijkstra1.distTo(i)){
+				mindist = dijkstra1.distTo(i);
+				minindex = i;
+			}
+		}
+		System.out.print(minindex + "minindex\n");
+		System.out.print(mindist + "mindist\n");
+		// for (int i = 0; i < width; i ++){
+
+		// }
 		return new int[0];
 	}
 
