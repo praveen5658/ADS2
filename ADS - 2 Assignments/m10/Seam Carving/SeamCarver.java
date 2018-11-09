@@ -77,7 +77,7 @@ public class SeamCarver {
 		int[] arr = new int[height];
 		double min = Double.POSITIVE_INFINITY;
 		double temp = 0.0;
-		System.out.println(height);
+		// System.out.println(height);
 		for (int j = 1; j < width - 1; j++){
 			if (min > ener[1][j]){
 				min = ener[1][j];
@@ -85,39 +85,39 @@ public class SeamCarver {
 				arr[0] = j;
 			}
 		}
-		System.out.println("FRist enterd");
-		System.out.println(arr[0]);
-		System.out.println(arr[1]);
+		// System.out.println("FRist enterd");
+		// System.out.println(arr[0]);
+		// System.out.println(arr[1]);
 		for (int i = 2; i < height - 1; i++){
 			temp = 0.0;
 			temp = min + ener[i][arr[i - 1] - 1];
-			System.out.print(temp + "temp\n");
-			System.out.print(min + "min\n");
+			// System.out.print(temp + "temp\n");
+			// System.out.print(min + "min\n");
 			arr[i] = arr[i - 1] - 1;
 			if (temp > (min + ener[i][arr[i - 1]])){
 				temp = (min + ener[i][arr[i - 1]]);
 				arr[i] = arr[i - 1];
-				System.out.print(temp + "temp\n");
-			System.out.print(min + "min\n");
+			// 	System.out.print(temp + "temp\n");
+			// System.out.print(min + "min\n");
 
 			}
 			if (temp > (min + ener[i][arr[i - 1] + 1])){
 				temp = (min + ener[i][arr[i - 1] + 1]);
 				arr[i] = arr[i - 1] + 1;
-				System.out.print(temp + "temp\n");
-			System.out.print(min + "min\n");
+			// 	System.out.print(temp + "temp\n");
+			// System.out.print(min + "min\n");
 
 			}
 			min = temp;
-			System.out.print(arr[i] + "Loop\n");
+			// System.out.print(arr[i] + "Loop\n");
 		}
-		System.out.println("enterd");
-		arr[height - 1] = arr[height - 2];
-		for (int h = 0; h < height; h++){
-			System.out.println("Printing Vertical Seam");
-			System.out.println(arr[h]);
-		}
-		System.out.println("Ended");
+		// System.out.println("enterd");
+		// arr[height - 1] = arr[height - 2];
+		// for (int h = 0; h < height; h++){
+		// 	System.out.println("Printing Vertical Seam");
+		// 	System.out.println(arr[h]);
+		// }
+		// System.out.println("Ended");
 		return arr;
 	}
 
