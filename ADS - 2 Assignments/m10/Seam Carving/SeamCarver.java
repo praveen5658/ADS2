@@ -99,6 +99,11 @@ public class SeamCarver {
 			min = temp;
 		}
 		arr[height - 1] = arr[height - 2];
+		for (int h = 0; h < height; h++){
+			System.out.println("Printing Vertical Seam");
+			System.out.println(arr[h]);
+		}
+		System.out.println("Ended");
 		return arr;
 	}
 
