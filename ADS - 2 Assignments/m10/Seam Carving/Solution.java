@@ -80,13 +80,13 @@ public class Solution {
                 }
                 break;
 
-            // case "findHorizontalSeam":
-            //     while (scan.hasNextLine()) {
-            //         String file = scan.nextLine();
-            //         seamCarver = new SeamCarver(new Picture("/Files/" + file));
-            //         System.out.println(Arrays.toString(seamCarver.findHorizontalSeam()));
-            //     }
-            //     break;
+            case "findHorizontalSeam":
+                while (scan.hasNextLine()) {
+                    String file = scan.nextLine();
+                    seamCarver = new SeamCarver(new Picture("/Files/" + file));
+                    System.out.println(Arrays.toString(seamCarver.findHorizontalSeam()));
+                }
+                break;
 
             // case "removeVerticalSeam":
             //     while (scan.hasNextLine()) {
