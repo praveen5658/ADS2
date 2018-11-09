@@ -282,8 +282,10 @@ Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:98:87: '++' is preceded with whitespace. [NoWhitespaceBefore]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:104:49: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:114:67: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:115:44: '%' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:115:45: '%' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:115:45: '%' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:115:46: '%' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:115:52: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:115:53: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:123:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:123:42: Parameter seam should be final. [FinalParameters]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:128:9: Missing a Javadoc comment. [JavadocMethod]
@@ -299,7 +301,7 @@ Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:145: Line is longer than 80 characters (found 132). [LineLength]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\SeamCarver.java:146: Line is longer than 80 characters (found 140). [LineLength]
 Audit done.
-Checkstyle ends with 59 errors.
+Checkstyle ends with 61 errors.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\ShowEnergy.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m10\Seam Carving\ShowEnergy.java:5: Line has trailing spaces. [RegexpSingleline]

@@ -112,7 +112,7 @@ public class SeamCarver {
 		int[] arr = new int[height];
 		int d = 0;
 		for (DirectedEdge f : dijkstra1.pathTo(minindex1)){
-			arr[d] = (f.from())%width;
+			arr[d] = ((f.from())%width)+1;
 			d++;
 		}
 		arr[height - 1] = minindex1 % width;
@@ -147,6 +147,6 @@ public class SeamCarver {
 				}
 			}
 		}
-		System.out.println(graph);
+		// System.out.println(graph);
 	}
 }
