@@ -97,10 +97,16 @@ public class SeamCarver {
 			if (temp < (min + ener[i][arr[i - 1]])){
 				temp = (min + ener[i][arr[i - 1]]);
 				arr[i] = arr[i - 1];
+				System.out.print(temp + "temp\n");
+			System.out.print(min + "min\n");
+
 			}
 			if (temp < (min + ener[i][arr[i - 1] + 1])){
 				temp =- (min + ener[i][arr[i - 1] + 1]);
 				arr[i] = arr[i - 1] + 1;
+				System.out.print(temp + "temp\n");
+			System.out.print(min + "min\n");
+
 			}
 			min = temp;
 			System.out.print(arr[i] + "Loop\n");
