@@ -60,8 +60,8 @@ public final class Solution {
 			dijkstra = new DijkstraUndirectedSP(graph, from);
 			if (dijkstra.hasPathTo(to)) {
 				for (Edge e : dijkstra.pathTo(to)) {
+					System.out.println(e);
 					if (e.either() == via) {
-						// cou ++;
 						System.out.println(dijkstra.distTo(to));
 						break;
 					}
@@ -69,9 +69,6 @@ public final class Solution {
 			} else {
 				System.out.println("No Path Found.");
 			}
-			// if (cou == 0) {
-			// 	System.out.println("No Path Found.");
-			// }
 			break;
 
 		default:
