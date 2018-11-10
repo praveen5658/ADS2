@@ -60,7 +60,10 @@ public final class Solution {
 			DijkstraAllPairsSP dijkstraallpairs = new DijkstraAllPairsSP(graph);
 			if (dijkstraallpairs.hasPath(from, to)) {
 				System.out.println(dijkstraallpairs.dist(from, to));
-				for (Edge e : dijkstraallpairs.path(from, to)){
+				for (Edge e : dijkstraallpairs.path(from, via)){
+					System.out.print(e.either() + " ");
+				}
+				for (Edge e : dijkstraallpairs.path(via, to)){
 					System.out.print(e.either() + " ");
 				}
 				System.out.println();

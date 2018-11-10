@@ -107,9 +107,10 @@ Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:51: Line is longer than 80 characters (found 110). [LineLength]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:60: Line is longer than 80 characters (found 92). [LineLength]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:62: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:63:79: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:63:80: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:66:78: '{' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 14 errors.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Stack.java:13: Line has trailing spaces. [RegexpSingleline]
