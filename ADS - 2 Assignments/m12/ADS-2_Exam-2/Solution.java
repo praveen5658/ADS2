@@ -57,15 +57,13 @@ public final class Solution {
 			to = Integer.parseInt(input[2]);
 			int via = Integer.parseInt(input[1]);
 			int cou = 0;
-			dijkstra = new DijkstraUndirectedSP(graph, from);
-			if (dijkstra.hasPathTo(to)) {
-				for (Edge e : dijkstra.pathTo(to)) {
-					System.out.println(e);
-					if (e.either() == via) {
-						System.out.println(dijkstra.distTo(to));
-						break;
-					}
+			DijkstraAllPairsSP dijkstraallpairs = new DijkstraAllPairsSP(graph);
+			if (dijkstraallpairs.hasPath(from, to)) {
+				System.out.println(dijkstraallpairs.dist(from, to));
+				for (Edge e : dijkstraallpairs.path(from, to)){
+					System.out.print(e.either() + " ");
 				}
+				System.out.println();
 			} else {
 				System.out.println("No Path Found.");
 			}
