@@ -67,7 +67,8 @@ Expected Output:
 No Path Found.
 
 Your Output: 
-
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:61)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -76,6 +77,6 @@ Expected Output:
 5 2 4 0 7 1
 
 Your Output: 
-
+No Path Found.
 ----------------------------------------
 

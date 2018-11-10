@@ -23,6 +23,7 @@ public final class Solution {
 			graph.addEdge(new Edge(from, to, weight));
 		}
 		String caseToGo = scan.nextLine();
+		DijkstraUndirectedSP dijkstra;
 		switch (caseToGo) {
 		case "Graph":
 			System.out.println(vertices + " vertices " + edges + " edges");
@@ -37,7 +38,7 @@ public final class Solution {
 			input = scan.nextLine().split(" ");
 			from = Integer.parseInt(input[0]);
 			to = Integer.parseInt(input[1]);
-			DijkstraUndirectedSP dijkstra = new DijkstraUndirectedSP(graph, from);
+			dijkstra = new DijkstraUndirectedSP(graph, from);
 			if (dijkstra.hasPathTo(to)){
 				System.out.println(dijkstra.distTo(to));
 			} else {
@@ -51,6 +52,22 @@ public final class Solution {
 			// third is the destination.
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
+			input = scan.nextLine().split(" ");
+			from = Integer.parseInt(input[0]);
+			to = Integer.parseInt(input[2]);
+			int via = Integer.parseInt(input[1]);
+			int cou = 0;
+			dijkstra = new DijkstraUndirectedSP(graph, from);
+			for (Edge e : dijkstra.pathTo(to)){
+				if (e.either() == via){
+					cou ++;
+					System.out.println(dijkstra.distTo(to));
+					break;
+				}
+			}
+			if (cou == 0){
+				System.out.println("No Path Found.");
+			}
 			break;
 
 		default:
