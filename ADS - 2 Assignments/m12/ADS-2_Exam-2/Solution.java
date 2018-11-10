@@ -55,7 +55,7 @@ public final class Solution {
 			input = scan.nextLine().split(" ");
 			from = Integer.parseInt(input[0]);
 			to = Integer.parseInt(input[2]);
-			int via = Integer.parseInt(input[1]);																								
+			int via = Integer.parseInt(input[1]);
 			int cou = 0;
 			DijkstraAllPairsSP dijkstraallpairs = new DijkstraAllPairsSP(graph);
 			if (dijkstraallpairs.hasPath(from, to)) {
@@ -70,12 +70,13 @@ public final class Solution {
 				// }
 				// System.out.println();
 				Stack<Integer> pa = dijkstraallpairs.path(from, via);
-				while(!(pa.isEmpty())){
-					System.out.println(pa.pop());
+				while (!(pa.isEmpty())) {
+					System.out.print(pa.pop() + " ");
 				}
 				Stack<Integer> pa2 = dijkstraallpairs.path(via, to);
-				while(!(pa2.isEmpty())){
-					System.out.println(pa2.pop());
+				pa2.pop();
+				while (!(pa2.isEmpty())) {
+					System.out.println(pa2.pop() + " ");
 				}
 			} else {
 				System.out.println("No Path Found.");
