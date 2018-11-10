@@ -76,7 +76,7 @@ public final class Solution {
 				Stack<Integer> pa2 = dijkstraallpairs.path(via, to);
 				pa2.pop();
 				while (!(pa2.isEmpty())) {
-					System.out.println(pa2.pop() + " ");
+					System.out.print(pa2.pop() + " ");
 				}
 			} else {
 				System.out.println("No Path Found.");
