@@ -39,7 +39,7 @@ public final class Solution {
 			from = Integer.parseInt(input[0]);
 			to = Integer.parseInt(input[1]);
 			dijkstra = new DijkstraUndirectedSP(graph, from);
-			if (dijkstra.hasPathTo(to)){
+			if (dijkstra.hasPathTo(to)) {
 				System.out.println(dijkstra.distTo(to));
 			} else {
 				System.out.println("No Path Found.");
@@ -58,16 +58,20 @@ public final class Solution {
 			int via = Integer.parseInt(input[1]);
 			int cou = 0;
 			dijkstra = new DijkstraUndirectedSP(graph, from);
-			for (Edge e : dijkstra.pathTo(to)){
-				if (e.either() == via){
-					cou ++;
-					System.out.println(dijkstra.distTo(to));
-					break;
+			if (dijkstra.hasPathTo(to)) {
+				for (Edge e : dijkstra.pathTo(to)) {
+					if (e.either() == via) {
+						// cou ++;
+						System.out.println(dijkstra.distTo(to));
+						break;
+					}
 				}
-			}
-			if (cou == 0){
+			} else {
 				System.out.println("No Path Found.");
 			}
+			// if (cou == 0) {
+			// 	System.out.println("No Path Found.");
+			// }
 			break;
 
 		default:
