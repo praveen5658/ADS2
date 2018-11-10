@@ -25,7 +25,7 @@ public final class Solution {
 		String caseToGo = scan.nextLine();
 		switch (caseToGo) {
 		case "Graph":
-			System.out.println(vertices + " vertices "+ edges + " edges\n");
+			System.out.println(vertices + " vertices "+ edges + " edges");
 			System.out.println(graph);
 			break;
 
