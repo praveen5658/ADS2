@@ -73,6 +73,10 @@ public final class Solution {
 				while(!(pa.isEmpty())){
 					System.out.println(pa.dequeue());
 				}
+				Queue<Integer> pa2 = dijkstraallpairs.path(via, to);
+				while(!(pa2.isEmpty())){
+					System.out.println(pa2.dequeue());
+				}
 			} else {
 				System.out.println("No Path Found.");
 			}
