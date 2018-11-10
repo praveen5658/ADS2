@@ -106,7 +106,7 @@ Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:50: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:51: Line is longer than 80 characters (found 110). [LineLength]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:60: Line is longer than 80 characters (found 92). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:62: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:62: Line is longer than 80 characters (found 118). [LineLength]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:63:80: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:67:78: '{' is not preceded with whitespace. [WhitespaceAround]
 Audit done.

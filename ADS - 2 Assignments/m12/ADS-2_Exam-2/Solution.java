@@ -59,7 +59,7 @@ public final class Solution {
 			int cou = 0;
 			DijkstraAllPairsSP dijkstraallpairs = new DijkstraAllPairsSP(graph);
 			if (dijkstraallpairs.hasPath(from, to)) {
-				System.out.println(dijkstraallpairs.dist(from, to));
+				System.out.println(dijkstraallpairs.dist(from, via) + dijkstraallpairs.dist(via, to));
 				for (Edge e : dijkstraallpairs.path(from, via)){
 					System.out.println(e);
 					System.out.print(e.either() + " ");
