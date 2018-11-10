@@ -14,13 +14,13 @@ public final class Solution {
 		int from = 0;
 		int to = 0;
 		double weight = 0.0;
-		EdgeWeightedDigraph graph = new EdgeWeightedDigraph(vertices);
+		EdgeWeightedGraph graph = new EdgeWeightedGraph(vertices);
 		for (int i = 0; i < edges; i++) {
 			input = scan.nextLine().split(" ");
 			from = Integer.parseInt(input[0]);
 			to = Integer.parseInt(input[1]);
 			weight = Double.parseDouble(input[2]);
-			graph.addEdge(new DirectedEdge(from, to, weight));
+			graph.addEdge(new Edge(from, to, weight));
 		}
 		String caseToGo = scan.nextLine();
 		switch (caseToGo) {
@@ -37,7 +37,7 @@ public final class Solution {
 			input = scan.nextLine().split(" ");
 			from = Integer.parseInt(input[0]);
 			to = Integer.parseInt(input[1]);
-			DijkstraSP dijkstra = new DijkstraSP(graph, from);
+			DijkstraUndirectedSP dijkstra = new DijkstraUndirectedSP(graph, from);
 			if (dijkstra.hasPathTo(to)){
 				System.out.println(dijkstra.distTo(to));
 			} else {
