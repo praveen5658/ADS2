@@ -244,7 +244,7 @@ public class EdgeWeightedDigraph {
         for (int v = 0; v < vertices; v++) {
             s.append(v + ": ");
             for (DirectedEdge e : adj[v]) {
-                s.append(e);
+                s.append(e + " ");
             }
             s.append(NEWLINE);
         }
