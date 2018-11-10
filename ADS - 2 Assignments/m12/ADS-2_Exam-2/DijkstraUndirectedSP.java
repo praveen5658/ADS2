@@ -237,7 +237,8 @@ public class DijkstraUndirectedSP {
             }
         }
 
-        // check that all edges e = v-w satisfy distTo[w] <= distTo[v] + e.weight()
+        // check that all edges e = v-w satisfy
+        //distTo[w] <= distTo[v] + e.weight()
         for (int v = 0; v < graph.vertexcount(); v++) {
             for (Edge e : graph.adj(v)) {
                 int w = e.other(v);
@@ -248,9 +249,12 @@ public class DijkstraUndirectedSP {
             }
         }
 
-        // check that all edges e = v-w on SPT satisfy distTo[w] == distTo[v] + e.weight()
+        // check that all edges e = v-w on SPT//
+        //satisfy distTo[w] == distTo[v] + e.weight()
         for (int w = 0; w < graph.vertexcount(); w++) {
-            if (edgeTo[w] == null) continue;
+            if (edgeTo[w] == null) {
+                continue;
+            }
             Edge e = edgeTo[w];
             if (w != e.either() && w != e.other(e.either())) {
                 return false;
@@ -272,8 +276,10 @@ public class DijkstraUndirectedSP {
      */
     private void validateVertex(final int v) {
         int ver = distTo.length;
-        if (v < 0 || v >= ver)
-            throw new IllegalArgumentException("vertex " + v + " is not between 0 and " + (ver - 1));
+        if (v < 0 || v >= ver) {
+            throw new IllegalArgumentException(
+                "vertex " + v + " is not between 0 and " + (ver - 1));
+        }
     }
 
 }

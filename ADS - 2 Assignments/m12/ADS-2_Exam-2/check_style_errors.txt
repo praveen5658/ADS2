@@ -2,12 +2,8 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:6: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:18: Line is longer than 80 characters (found 85). [LineLength]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:20: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:25: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:26: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:27: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:33:5: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:36: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:42:31: Parameter G should be final. [FinalParameters]
@@ -15,7 +11,6 @@ Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:44: 'for' construct must use '{}'s. [NeedBraces]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:57:32: Parameter s should be final. [FinalParameters]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:57:39: Parameter t should be final. [FinalParameters]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:67: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:72:28: Parameter s should be final. [FinalParameters]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:72:35: Parameter t should be final. [FinalParameters]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:79: Line is longer than 80 characters (found 87). [LineLength]
@@ -26,20 +21,13 @@ Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:94:33: Parameter v should be final. [FinalParameters]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:95:13: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:96: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:97: Line is longer than 80 characters (found 97). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:97:93: '-' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:97:94: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraAllPairsSP.java:97: Line is longer than 80 characters (found 99). [LineLength]
 Audit done.
-Checkstyle ends with 28 errors.
+Checkstyle ends with 21 errors.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:240: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:251: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:253: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:275: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:276: Line is longer than 80 characters (found 101). [LineLength]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.
 Starting audit...

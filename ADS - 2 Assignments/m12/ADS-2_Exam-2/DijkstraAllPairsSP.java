@@ -3,7 +3,7 @@
  *  Execution:    none
  *  Dependencies: EdgeWeightedDigraph.java Dijkstra.java
  *
- *  Dijkstra's algorithm run from each vertex. 
+ *  Dijkstra's algorithm run from each vertex.
  *  Takes time proportional to E V log V and space proportional to EV.
  *
  ******************************************************************************/
@@ -22,9 +22,9 @@
  *  constant time and the {@code path()} method takes time proportional to the
  *  number of edges in the shortest path returned.
  *  <p>
- *  For additional documentation,    
- *  see <a href="https://algs4.cs.princeton.edu/44sp">Section 4.4</a> of    
- *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne. 
+ *  For additional documentation,
+ *  see <a href="https://algs4.cs.princeton.edu/44sp">Section 4.4</a> of
+ *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
  *
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
@@ -64,7 +64,7 @@ public class DijkstraAllPairsSP {
      * Is there a path from the vertex {@code s} to vertex {@code t}?
      * @param  s the source vertex
      * @param  t the destination vertex
-     * @return {@code true} if there is a path from vertex {@code s} 
+     * @return {@code true} if there is a path from vertex {@code s}
      *         to vertex {@code t}, and {@code false} otherwise
      * @throws IllegalArgumentException unless {@code 0 <= s < V}
      * @throws IllegalArgumentException unless {@code 0 <= t < V}
@@ -94,7 +94,7 @@ public class DijkstraAllPairsSP {
     private void validateVertex(int v) {
         int V = all.length;
         if (v < 0 || v >= V)
-            throw new IllegalArgumentException("vertex " + v + " is not between 0 and " + (V-1));
+            throw new IllegalArgumentException("vertex " + v + " is not between 0 and " + (V - 1));
     }
 
 }
