@@ -55,20 +55,24 @@ public final class Solution {
 			input = scan.nextLine().split(" ");
 			from = Integer.parseInt(input[0]);
 			to = Integer.parseInt(input[2]);
-			int via = Integer.parseInt(input[1]);
+			int via = Integer.parseInt(input[1]);																								
 			int cou = 0;
 			DijkstraAllPairsSP dijkstraallpairs = new DijkstraAllPairsSP(graph);
 			if (dijkstraallpairs.hasPath(from, to)) {
 				System.out.println(dijkstraallpairs.dist(from, via) + dijkstraallpairs.dist(via, to));
-				for (Edge e : dijkstraallpairs.path(from, via)){
-					System.out.println(e);
-					System.out.print(e.either() + " ");
+				// for (Edge e : dijkstraallpairs.path(from, via)){
+				// 	// System.out.println(e);
+				// 	// System.out.print(e.either() + " ");
+				// }
+				// for (Edge e : dijkstraallpairs.path(via, to)){
+				// 	System.out.println(e);
+				// 	System.out.print(e.either() + " ");
+				// }
+				// System.out.println();
+				Queue<Integer> pa = dijkstraallpairs.path(from, via);
+				while(pa.isEmpty()){
+					System.out.println(pa.dequeue());
 				}
-				for (Edge e : dijkstraallpairs.path(via, to)){
-					System.out.println(e);
-					System.out.print(e.either() + " ");
-				}
-				System.out.println();
 			} else {
 				System.out.println("No Path Found.");
 			}
