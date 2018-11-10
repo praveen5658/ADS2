@@ -22,7 +22,7 @@ public final class Solution {
 			weight = Double.parseDouble(input[2]);
 			graph.addEdge(new DirectedEdge(from, to, weight));
 		}
-		String caseToGo = null;
+		String caseToGo = scan.nextLine();
 		switch (caseToGo) {
 		case "Graph":
 			System.out.println(graph);
