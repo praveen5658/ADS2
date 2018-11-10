@@ -66,6 +66,11 @@ public class Stack<Item> implements Iterable<Item> {
     private int n;                // size of the stack
 
     // helper linked list class
+    /**
+     * Class for node.
+     *
+     * @param      <Item>  The item
+     */
     private static class Node<Item> {
         /**
         * Value.
@@ -149,7 +154,8 @@ public class Stack<Item> implements Iterable<Item> {
     /**
      * Returns a string representation of this stack.
      *
-     * @return the sequence of items in this stack in LIFO order, separated by spaces
+     * @return the sequence of items in this stack in
+     * LIFO order, separated by spaces
      */
     public String toString() {
         StringBuilder s = new StringBuilder();
@@ -162,32 +168,58 @@ public class Stack<Item> implements Iterable<Item> {
 
 
     /**
-     * Returns an iterator to this stack that iterates through the items in LIFO order.
+     * Returns an iterator to this stack that iterates
+     * through the items in LIFO order.
      *
-     * @return an iterator to this stack that iterates through the items in LIFO order
+     * @return an iterator to this stack that iterates
+     * through the items in LIFO order
      */
     public Iterator<Item> iterator() {
         return new ListIterator<Item>(first);
     }
 
     // an iterator, doesn't implement remove() since it's optional
+    /**
+     * Class for list iterator.
+     *
+     * @param      <Item>  The item
+     */
     private class ListIterator<Item> implements Iterator<Item> {
+        /**
+     * Value.
+     */
         private Node<Item> current;
-
-        public ListIterator(Node<Item> first) {
+        /**
+         * Constructs the object.
+         *
+         * @param      first  The first
+         */
+        public ListIterator(final Node<Item> first) {
             current = first;
         }
-
+        /**
+         * Determines if it has next.
+         *
+         * @return     True if has next, False otherwise.
+         */
         public boolean hasNext() {
             return current != null;
         }
-
+        /**
+         * { function_description }.
+         */
         public void remove() {
             throw new UnsupportedOperationException();
         }
-
+        /**
+         * { function_description }.
+         *
+         * @return     { description_of_the_return_value }
+         */
         public Item next() {
-            if (!hasNext()) throw new NoSuchElementException();
+            if (!hasNext()) {
+                throw new NoSuchElementException();
+            }
             Item item = current.item;
             current = current.next;
             return item;
