@@ -202,7 +202,7 @@ public class EdgeWeightedGraph {
      */
     public String toString() {
         StringBuilder s = new StringBuilder();
-        s.append(vertex + " " + edge + NEWLINE);
+        // s.append(vertex + " " + edge + NEWLINE);
         for (int v = 0; v < vertex; v++) {
             s.append(v + ": ");
             for (Edge e : adj[v]) {
