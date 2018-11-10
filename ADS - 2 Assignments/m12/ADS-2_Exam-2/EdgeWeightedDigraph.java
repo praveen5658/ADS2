@@ -168,7 +168,10 @@ public class EdgeWeightedDigraph {
         validateVertex(v);
         validateVertex(w);
         adj[v].add(e);
+        adj[w].add(e);
         indegree[w]++;
+        indegree[v]++;
+        edges++;
         edges++;
     }
 
