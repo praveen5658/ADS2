@@ -184,7 +184,7 @@ public class Stack<Item> implements Iterable<Item> {
      *
      * @param      <Item>  The item
      */
-    private class ListIterator<Item> implements Iterator<Item> {
+    private final class ListIterator<Item> implements Iterator<Item> {
         /**
      * Value.
      */
