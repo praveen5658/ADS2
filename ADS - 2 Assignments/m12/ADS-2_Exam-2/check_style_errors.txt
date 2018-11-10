@@ -17,11 +17,11 @@ Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:6:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:6:33: Parameter args should be final. [FinalParameters]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:28: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:28:67: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:28: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:33: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:40: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:41: Line is longer than 80 characters (found 110). [LineLength]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:41:52: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:49: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:50: Line is longer than 80 characters (found 110). [LineLength]
 Audit done.
 Checkstyle ends with 11 errors.
 Starting audit...

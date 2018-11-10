@@ -25,7 +25,7 @@ public final class Solution {
 		String caseToGo = scan.nextLine();
 		switch (caseToGo) {
 		case "Graph":
-			System.out.println(vertices + " vertices "+ edges + " edges");
+			System.out.println(vertices + " vertices " + edges + " edges");
 			System.out.println(graph);
 			break;
 
@@ -34,6 +34,15 @@ public final class Solution {
 			// First is the source and second is the destination.
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
+			input = scan.nextLine().split(" ");
+			from = Integer.parseInt(input[0]);
+			to = Integer.parseInt(input[1]);
+			DijkstraSP dijkstra = new DijkstraSP(graph, from);
+			if (dijkstra.hasPathTo(to)){
+				System.out.println(dijkstra.distTo(to));
+			} else {
+				System.out.println("No Path Found.");
+			}
 			break;
 
 		case "ViaPaths":
