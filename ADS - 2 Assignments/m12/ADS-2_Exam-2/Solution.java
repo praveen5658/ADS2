@@ -61,9 +61,11 @@ public final class Solution {
 			if (dijkstraallpairs.hasPath(from, to)) {
 				System.out.println(dijkstraallpairs.dist(from, to));
 				for (Edge e : dijkstraallpairs.path(from, via)){
+					System.out.println(e);
 					System.out.print(e.either() + " ");
 				}
 				for (Edge e : dijkstraallpairs.path(via, to)){
+					System.out.println(e);
 					System.out.print(e.either() + " ");
 				}
 				System.out.println();
