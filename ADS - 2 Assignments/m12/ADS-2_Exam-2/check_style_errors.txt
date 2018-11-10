@@ -103,7 +103,7 @@ Audit done.
 Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Stack.java:197:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Stack.java:187: Class ListIterator should be declared as final. [FinalClass]
 Audit done.
 Checkstyle ends with 2 errors.
 Starting audit...
