@@ -70,7 +70,7 @@ public final class Solution {
 				// }
 				// System.out.println();
 				Queue<Integer> pa = dijkstraallpairs.path(from, via);
-				while(pa.isEmpty()){
+				while(!(pa.isEmpty())){
 					System.out.println(pa.dequeue());
 				}
 			} else {

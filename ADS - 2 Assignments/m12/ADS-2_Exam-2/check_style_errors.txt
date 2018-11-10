@@ -119,7 +119,7 @@ Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:67: Line is longer than 80 characters (found 81). [LineLength]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:72: Line is longer than 80 characters (found 85). [LineLength]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:73:38: 'while' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:73:52: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\Solution.java:73:55: '{' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
 Checkstyle ends with 19 errors.
 Starting audit...
