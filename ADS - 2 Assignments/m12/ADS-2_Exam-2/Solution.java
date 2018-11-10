@@ -69,13 +69,13 @@ public final class Solution {
 				// 	System.out.print(e.either() + " ");
 				// }
 				// System.out.println();
-				Queue<Integer> pa = dijkstraallpairs.path(from, via);
+				Stack<Integer> pa = dijkstraallpairs.path(from, via);
 				while(!(pa.isEmpty())){
-					System.out.println(pa.dequeue());
+					System.out.println(pa.pop());
 				}
-				Queue<Integer> pa2 = dijkstraallpairs.path(via, to);
+				Stack<Integer> pa2 = dijkstraallpairs.path(via, to);
 				while(!(pa2.isEmpty())){
-					System.out.println(pa2.dequeue());
+					System.out.println(pa2.pop());
 				}
 			} else {
 				System.out.println("No Path Found.");

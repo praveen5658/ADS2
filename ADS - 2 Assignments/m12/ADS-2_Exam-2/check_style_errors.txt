@@ -71,9 +71,6 @@ Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:146: Line is longer than 80 characters (found 88). [LineLength]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:150:34: Parameter v should be final. [FinalParameters]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:152: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:164:5: Class 'DijkstraUndirectedSP' looks like designed for extension (can be subclassed), but the method 'getQueue' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'DijkstraUndirectedSP' final or making the method 'getQueue' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:164:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:164:37: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:170:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:170:27: Parameter G should be final. [FinalParameters]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:170:45: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
@@ -91,7 +88,7 @@ Starting audit...
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:222:93: '-' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\ADS2\ADS - 2 Assignments\m12\ADS-2_Exam-2\DijkstraUndirectedSP.java:222:94: '-' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 58 errors.
+Checkstyle ends with 55 errors.
 Starting audit...
 Audit done.
 Starting audit...

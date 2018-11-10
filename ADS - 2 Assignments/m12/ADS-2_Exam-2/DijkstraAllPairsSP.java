@@ -54,7 +54,7 @@ public class DijkstraAllPairsSP {
      * @throws IllegalArgumentException unless {@code 0 <= s < V}
      * @throws IllegalArgumentException unless {@code 0 <= t < V}
      */
-    public Queue<Integer> path(int s, int t) {
+    public Stack<Integer> path(int s, int t) {
         validateVertex(s);
         validateVertex(t);
         return all[s].pathTo(t);

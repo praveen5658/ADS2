@@ -61,7 +61,7 @@ public class DijkstraUndirectedSP {
     private double[] distTo;          // distTo[v] = distance  of shortest s->v path
     private Edge[] edgeTo;            // edgeTo[v] = last edge on shortest s->v path
     private IndexMinPQ<Double> pq;    // priority queue of vertices
-    private Queue <Integer>pa = new Queue<>();
+    private Stack <Integer>pa = new Stack<>();
 
     /**
      * Computes a shortest-paths tree from the source vertex {@code s} to every
@@ -147,23 +147,23 @@ public class DijkstraUndirectedSP {
      *         {@code null} if no such path
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
      */
-    public Queue<Integer> pathTo(int v) {
+    public Stack<Integer> pathTo(int v) {
         validateVertex(v);
         if (!hasPathTo(v)) return null;
         Stack<Edge> path = new Stack<Edge>();
         int x = v;
-        pa.enqueue(v);
+        pa.push(v);
         for (Edge e = edgeTo[v]; e != null; e = edgeTo[x]) {
             path.push(e);
             x = e.other(x);
-            pa.enqueue(x);
+            pa.push(x);
         }
         return pa;
     }
 
-    public Queue<Integer> getQueue(){
-        return pa;
-    }
+    // public Queue<Integer> getQueue(){
+    //     return pa;
+    // }
     // check optimality conditions:
     // (i) for all edges e = v-w:            distTo[w] <= distTo[v] + e.weight()
     // (ii) for all edge e = v-w on the SPT: distTo[w] == distTo[v] + e.weight()
