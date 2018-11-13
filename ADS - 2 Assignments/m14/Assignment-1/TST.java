@@ -40,6 +40,7 @@ public class TST<Value> {
      * { function_description }
      *
      * @return     { description_of_the_return_value }
+     * Time complexity is 1.
      */
     public int size() {
         return n;
@@ -50,6 +51,7 @@ public class TST<Value> {
      * @param      key   The key
      *
      * @return     { description_of_the_return_value }
+     * Time complexity is 1.
      */
     public boolean contains(final String key) {
         if (key == null) {
@@ -64,6 +66,7 @@ public class TST<Value> {
      * @param      key   The key
      *
      * @return     { description_of_the_return_value }
+     * Time complexity is 1.
      */
     public Value get(final String key) {
         if (key == null) {
@@ -88,6 +91,7 @@ public class TST<Value> {
      * @param      d     { parameter_description }
      *
      * @return     { description_of_the_return_value }
+     * Time complexity is 1.
      */
     private Node<Value> get(final Node<Value> x,
         final String key, final int d) {
@@ -114,6 +118,7 @@ public class TST<Value> {
      *
      * @param      key   The key
      * @param      val   The value
+     * Time complexity is 1.
      */
     public void put(final String key, final Value val) {
         if (key == null) {
@@ -134,6 +139,7 @@ public class TST<Value> {
      * @param      d     { parameter_description }
      *
      * @return     { description_of_the_return_value }
+     * Time complexity is 1.
      */
     private Node<Value> put(final Node<Value> y, final String key,
         final Value val, final int d) {
@@ -160,6 +166,7 @@ public class TST<Value> {
      * @param      query  The query
      *
      * @return     { description_of_the_return_value }
+     * Time complexity is O(length of string)
      */
     public String longestPrefixOf(final String query) {
         if (query == null) {
@@ -192,6 +199,7 @@ public class TST<Value> {
      * { function_description }
      *
      * @return     { description_of_the_return_value }
+     * Time complexity is O(N)
      */
     public Iterable<String> keys() {
         Queue<String> queue = new Queue<String>();
@@ -204,6 +212,7 @@ public class TST<Value> {
      * @param      prefix  The prefix
      *
      * @return     { description_of_the_return_value }
+     * Time complexity is O(N)
      */
     public Iterable<String> keysWithPrefix(final String prefix) {
         if (prefix == null) {
@@ -227,6 +236,7 @@ public class TST<Value> {
      * @param      x       { parameter_description }
      * @param      prefix  The prefix
      * @param      queue   The queue
+     * Time complexity is O(N)
      */
     private void collect(final Node<Value> x,
         final StringBuilder prefix, final Queue<String> queue) {
@@ -247,6 +257,7 @@ public class TST<Value> {
      * @param      pattern  The pattern
      *
      * @return     { description_of_the_return_value }
+     * Time complexity is O(N)
      */
     public Iterable<String> keysThatMatch(final String pattern) {
         Queue<String> queue = new Queue<String>();
@@ -261,6 +272,7 @@ public class TST<Value> {
      * @param      i        { parameter_description }
      * @param      pattern  The pattern
      * @param      queue    The queue
+     * Time complexity is O(N)
      */
     private void collect(final Node<Value> x, final StringBuilder prefix,
             final int i, final String pattern, final Queue<String> queue) {
