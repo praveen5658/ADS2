@@ -22,7 +22,13 @@ public class TrieSET implements Iterable<String> {
      * Class for node.
      */
     private static class Node {
+        /**.
+         * { var_description }
+         */
         private Node[] next = new Node[R];
+        /**.
+         * { var_description }
+         */
         private boolean isString;
     }
     /**.
@@ -98,10 +104,9 @@ public class TrieSET implements Iterable<String> {
                 n++;
             }
             x.isString = true;
-        }
-        else {
+        } else {
             char c = key.charAt(d);
-            x.next[c] = add(x.next[c], key, d+1);
+            x.next[c] = add(x.next[c], key, d + 1);
         }
         return x;
     }
@@ -203,8 +208,7 @@ public class TrieSET implements Iterable<String> {
                 collect(x.next[ch], prefix, pattern, results);
                 prefix.deleteCharAt(prefix.length() - 1);
             }
-        }
-        else {
+        } else {
             prefix.append(c);
             collect(x.next[c], prefix, pattern, results);
             prefix.deleteCharAt(prefix.length() - 1);

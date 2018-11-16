@@ -1,10 +1,6 @@
 /**.
  * { item_description }
  */
-import java.util.Arrays;
-/**.
- * { item_description }
- */
 import java.util.Scanner;
 /**.
  * Class for solution.
@@ -27,11 +23,11 @@ public final class Solution {
         switch (caseType) {
         case "Score":
             String dictionaryName = sc.nextLine();
-            In in = new In(" /Files/" + dictionaryName);
+            In in = new In("/Files/" + dictionaryName);
             String[] dictionary = in.readAllStrings();
             BoggleSolver solver = new BoggleSolver(dictionary);
             String boardName = sc.nextLine();
-            BoggleBoard board = new BoggleBoard(" /Files/ " + boardName);
+            BoggleBoard board = new BoggleBoard("/Files/" + boardName);
             int score = 0;
             for (String word : solver.getAllValidWords(board)) {
                 score += solver.scoreOf(word);
@@ -41,7 +37,7 @@ public final class Solution {
         default:
             try {
                 dictionaryName = sc.nextLine();
-                in = new In(" /Files/" + dictionaryName);
+                in = new In("/Files/" + dictionaryName);
                 dictionary = in.readAllStrings();
                 solver = new BoggleSolver(dictionary);
                 board = null;
@@ -57,3 +53,4 @@ public final class Solution {
         }
     }
 }
+
