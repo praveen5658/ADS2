@@ -27,7 +27,7 @@ public final class Solution {
         switch (caseType) {
         case "Score":
             String dictionaryName = sc.nextLine();
-            In in = new In(" /Files/ " + dictionaryName);
+            In in = new In("/Files/" + dictionaryName);
             String[] dictionary = in.readAllStrings();
             BoggleSolver solver = new BoggleSolver(dictionary);
             String boardName = sc.nextLine();
@@ -41,7 +41,7 @@ public final class Solution {
         default:
             try {
                 dictionaryName = sc.nextLine();
-                in = new In(" /Files/ " + dictionaryName);
+                in = new In("/Files/" + dictionaryName);
                 dictionary = in.readAllStrings();
                 solver = new BoggleSolver(dictionary);
                 board = null;
