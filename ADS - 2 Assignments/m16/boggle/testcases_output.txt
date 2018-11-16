@@ -1,0 +1,472 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+Score = 33
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-algs4.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-algs4.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 1: Failed ##########
+Expected Output: 
+Score = 84
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-algs4.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-algs4.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 2: Failed ##########
+Expected Output: 
+Score = 1
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-yawl.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-yawl.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 3: Failed ##########
+Expected Output: 
+Score = 2
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-yawl.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-yawl.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 4: Failed ##########
+Expected Output: 
+Score = 3
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-yawl.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-yawl.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 5: Failed ##########
+Expected Output: 
+Score = 1000
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-yawl.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-yawl.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 6: Failed ##########
+Expected Output: 
+Score = 400
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-yawl.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-yawl.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 7: Failed ##########
+Expected Output: 
+Score = 7
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-yawl.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-yawl.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 8: Failed ##########
+Expected Output: 
+Score = 155
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-shakespeare.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-shakespeare.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 9: Failed ##########
+Expected Output: 
+Score = 172
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-yawl.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-yawl.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 10: Failed ##########
+Expected Output: 
+Score = 68
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-yawl.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-yawl.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 11: Failed ##########
+Expected Output: 
+Score = 147
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-16q.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-16q.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 12: Failed ##########
+Expected Output: 
+Score = 687
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-yawl.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-yawl.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 13: Failed ##########
+Expected Output: 
+Score = 0
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-nursery.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-nursery.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 14: Failed ##########
+Expected Output: 
+Score = 172
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-yawl.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-yawl.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 15: Failed ##########
+Expected Output: 
+Score = 129
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-yawl.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-yawl.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 16: Failed ##########
+Expected Output: 
+Score = 2
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-common.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-common.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 17: Failed ##########
+Expected Output: 
+Score = 1
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-common.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-common.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 18: Failed ##########
+Expected Output: 
+Score = 14
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-common.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-common.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 19: Failed ##########
+Expected Output: 
+Score = 11
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-common.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-common.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 20: Failed ##########
+Expected Output: 
+Score = 33
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-common.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-common.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 21: Failed ##########
+Expected Output: 
+Score = 23
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-common.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-common.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 22: Failed ##########
+Expected Output: 
+Score = 24
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-common.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-common.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 23: Failed ##########
+Expected Output: 
+Score = 30
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-common.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-common.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 24: Failed ##########
+Expected Output: 
+Score = 0
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-2letters.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-2letters.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 25: Failed ##########
+Expected Output: 
+Score = 26539
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-yawl.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-yawl.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 26: Failed ##########
+Expected Output: 
+Score = 19797
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-enable2k.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-enable2k.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 27: Failed ##########
+Expected Output: 
+Score = 27325
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-sowpods.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-sowpods.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 28: Failed ##########
+Expected Output: 
+Score = 32175
+
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: Could not open  /Files/ dictionary-zingarelli2005.txt
+	at In.<init>(In.java:192)
+	at Solution.main(Solution.java:30)
+Caused by: java.net.MalformedURLException: no protocol:  /Files/ dictionary-zingarelli2005.txt
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at java.base/java.net.URL.<init>(Unknown Source)
+	at In.<init>(In.java:178)
+	... 1 more
+----------------------------------------
+
+########## Testcase 29: Passed ##########
+Expected Output: 
+board is null
+
+Your Output: 
+board is null
+----------------------------------------
+
